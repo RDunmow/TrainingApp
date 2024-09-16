@@ -5,8 +5,8 @@
         <cat_item display_value="Certification Refresh">533b81733be0d2106ca6f66aa5e45a78</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>user</choice_field>
+        <choice_table>x_snc_train_cert_training_completed</choice_table>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -41,13 +41,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>question_1</name>
+        <name>current_certification</name>
         <order>100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Current Certifications</question_text>
+        <question_text>Certification for</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -55,10 +55,10 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_snc_train_cert_request</record_producer_table>
-        <reference/>
+        <reference>x_snc_train_cert_training_course</reference>
         <reference_qual/>
         <reference_qual_condition/>
-        <rich_text><![CDATA[Current Certifications]]></rich_text>
+        <rich_text><![CDATA[<p>Current Certifications</p>]]></rich_text>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
 * `current`- GlideRecord produced by Record Producer
@@ -77,17 +77,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-16 18:16:11</sys_created_on>
         <sys_id>233bc1733be0d2106ca6f66aa5e45a72</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Current Certifications</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Certification for</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_update_name>item_option_new_233bc1733be0d2106ca6f66aa5e45a72</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-16 18:20:02</sys_updated_on>
+        <sys_updated_on>2024-09-16 21:32:20</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>8</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

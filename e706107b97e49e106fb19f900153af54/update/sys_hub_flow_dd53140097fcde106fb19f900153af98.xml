@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=85958000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=213477000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>requested_training</internal_name>
-        <label_cache>[{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.Course_date.start_date","label":"1 - Get Catalog Variables➛Course_date➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_train_cert_training_course_dates","column_name":"start_date","usedInstances":{"0f6c6242-7e14-4c58-9615-9be56746d4a2":["date_completed"]}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course","label":"1 - Get Catalog Variables➛course","reference":"x_snc_train_cert_training_course","reference_display":"Training Course","type":"reference","base_type":"reference","usedInstances":{"0f6c6242-7e14-4c58-9615-9be56746d4a2":["training_course"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course.course_url","label":"1 - Get Catalog Variables➛course➛Course URL","reference":"","reference_display":"Course URL","type":"url","base_type":"url","parent_table_name":"x_snc_train_cert_training_course","column_name":"course_url","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null]}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course.course_name","label":"1 - Get Catalog Variables➛course➛Course Name","reference":"","reference_display":"Course Name","type":"string","base_type":"string","parent_table_name":"x_snc_train_cert_training_course","column_name":"course_name","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null],"d0983856-2f69-42e6-9d70-9fdaf3885357":["comments"],"11a5fb44-7885-43d2-9827-ee9bc80ea910":["values"]}},{"name":"Created_1.current.opened_by.first_name","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null]}},{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":["ah_to"],"7543ab25-74bd-4f2b-a77a-daf59ba33557":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Training and Certifications Request Record","reference":"x_snc_train_cert_request","reference_display":"Training and Certifications Request","type":"reference","base_type":"reference","usedInstances":{"e49309fd-88cd-4140-9219-8d29dd21dd0c":["requested_item"],"c04f1991-3adc-4d51-814a-96be26476a79":["record"],"63b0bb61-87b5-44f3-ac87-10e3baa93dd0":["record"],"35743806-eb77-496d-9c24-f3d650034dd0":["record"],"d0983856-2f69-42e6-9d70-9fdaf3885357":["record"],"11a5fb44-7885-43d2-9827-ee9bc80ea910":["record"]},"attributes":{}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"63b0bb61-87b5-44f3-ac87-10e3baa93dd0":["assigned_to"]}},{"name":"c04f1991-3adc-4d51-814a-96be26476a79.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"02129deb-8ab7-48d8-8bce-756ff8b2f769":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Training and Certifications Request Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_train_cert_request","column_name":"assigned_to","usedInstances":{"c04f1991-3adc-4d51-814a-96be26476a79":["approval_conditions"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_train_cert_request","column_name":"opened_by","usedInstances":{"0f6c6242-7e14-4c58-9615-9be56746d4a2":["user"]}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.Course_date.start_date","label":"1 - Get Catalog Variables➛Course_date➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_train_cert_training_course_dates","column_name":"start_date","usedInstances":{"0f6c6242-7e14-4c58-9615-9be56746d4a2":["date_completed"]}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course","label":"1 - Get Catalog Variables➛course","reference":"x_snc_train_cert_training_course","reference_display":"Training Course","type":"reference","base_type":"reference","usedInstances":{"0f6c6242-7e14-4c58-9615-9be56746d4a2":["training_course"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course.course_url","label":"1 - Get Catalog Variables➛course➛Course URL","reference":"","reference_display":"Course URL","type":"url","base_type":"url","parent_table_name":"x_snc_train_cert_training_course","column_name":"course_url","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null]}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course.course_name","label":"1 - Get Catalog Variables➛course➛Course Name","reference":"","reference_display":"Course Name","type":"string","base_type":"string","parent_table_name":"x_snc_train_cert_training_course","column_name":"course_name","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null],"d0983856-2f69-42e6-9d70-9fdaf3885357":["comments"],"11a5fb44-7885-43d2-9827-ee9bc80ea910":["values"]}},{"name":"Created_1.current.opened_by.first_name","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null]}},{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":["ah_to"],"7543ab25-74bd-4f2b-a77a-daf59ba33557":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Training and Certifications Request Record","reference":"x_snc_train_cert_request","reference_display":"Training and Certifications Request","type":"reference","base_type":"reference","usedInstances":{"e49309fd-88cd-4140-9219-8d29dd21dd0c":["requested_item"],"c04f1991-3adc-4d51-814a-96be26476a79":["record"],"63b0bb61-87b5-44f3-ac87-10e3baa93dd0":["record"],"35743806-eb77-496d-9c24-f3d650034dd0":["record"],"d0983856-2f69-42e6-9d70-9fdaf3885357":["record"],"11a5fb44-7885-43d2-9827-ee9bc80ea910":["record"]},"attributes":{}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"63b0bb61-87b5-44f3-ac87-10e3baa93dd0":["assigned_to"]}},{"name":"c04f1991-3adc-4d51-814a-96be26476a79.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"02129deb-8ab7-48d8-8bce-756ff8b2f769":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Training and Certifications Request Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_train_cert_request","column_name":"assigned_to","usedInstances":{"c04f1991-3adc-4d51-814a-96be26476a79":["approval_conditions"]}}]</label_cache>
         <master_snapshot>1a0ba90897f412506fb19f900153af7e</master_snapshot>
         <name>Requested Training</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dd53140097fcde106fb19f900153af98</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Requested Training</sys_name>
         <sys_overrides/>
         <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_update_name>sys_hub_flow_dd53140097fcde106fb19f900153af98</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:06</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:25</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=dd53140097fcde106fb19f900153af98"/>
@@ -80,14 +80,14 @@
         <identifier>dd53140097fcde106fb19f900153af98</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-18 08:43:05</sys_created_on>
-        <sys_id>5c4b1d9097bc52506fb19f900153af9a</sys_id>
+        <sys_created_on>2024-09-19 20:08:24</sys_created_on>
+        <sys_id>b8b14d7c973c16506fb19f900153aff3</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:05</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:24</sys_updated_on>
         <trigger display_value="">b20be90897f412506fb19f900153af67</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=dd53140097fcde106fb19f900153af98^sys_idNOT IN5c4b1d9097bc52506fb19f900153af9a"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=dd53140097fcde106fb19f900153af98^sys_idNOT INb8b14d7c973c16506fb19f900153aff3"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=dd53140097fcde106fb19f900153af98^sys_idNOT IN2494148097fcde106fb19f900153af06"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -98,10 +98,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 08:55:48</sys_created_on>
         <sys_id>2494148097fcde106fb19f900153af06</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:06</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:25</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -214,14 +214,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 08:55:48</sys_created_on>
         <sys_id>6094148097fcde106fb19f900153af00</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:05</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -298,14 +298,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 08:55:48</sys_created_on>
         <sys_id>6494d08097fcde106fb19f900153affb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:05</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -338,10 +338,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:26</sys_created_on>
         <sys_id>200be50897f412506fb19f900153afaf</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 16:45:35</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:09:49</sys_updated_on>
         <ui_id>5b84fac5-406c-45be-a7cd-0c79bc099d27</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=200be50897f412506fb19f900153afaf"/>
@@ -433,10 +433,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-18 08:42:54</sys_created_on>
         <sys_id>213b599097bc52506fb19f900153af14</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 16:45:35</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:09:49</sys_updated_on>
         <ui_id>d0983856-2f69-42e6-9d70-9fdaf3885357</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=213b599097bc52506fb19f900153af14"/>
@@ -559,10 +559,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-18 08:42:54</sys_created_on>
         <sys_id>2d3b599097bc52506fb19f900153af22</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 16:45:35</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:09:49</sys_updated_on>
         <ui_id>11a5fb44-7885-43d2-9827-ee9bc80ea910</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2d3b599097bc52506fb19f900153af22"/>
@@ -685,10 +685,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:26</sys_created_on>
         <sys_id>640be50897f412506fb19f900153afd8</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 16:45:35</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:09:49</sys_updated_on>
         <ui_id>35743806-eb77-496d-9c24-f3d650034dd0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=640be50897f412506fb19f900153afd8"/>
@@ -839,10 +839,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 08:55:48</sys_created_on>
         <sys_id>a894148097fcde106fb19f900153af0e</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 16:45:35</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:09:49</sys_updated_on>
         <ui_id>e49309fd-88cd-4140-9219-8d29dd21dd0c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a894148097fcde106fb19f900153af0e"/>
@@ -929,10 +929,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:26</sys_created_on>
         <sys_id>ac0be50897f412506fb19f900153afd0</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 16:45:35</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:09:49</sys_updated_on>
         <ui_id>7543ab25-74bd-4f2b-a77a-daf59ba33557</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ac0be50897f412506fb19f900153afd0"/>
@@ -1023,10 +1023,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 08:55:48</sys_created_on>
         <sys_id>e894148097fcde106fb19f900153af23</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 16:45:35</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:09:49</sys_updated_on>
         <ui_id>63b0bb61-87b5-44f3-ac87-10e3baa93dd0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e894148097fcde106fb19f900153af23"/>
@@ -1099,10 +1099,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 08:55:48</sys_created_on>
         <sys_id>e894148097fcde106fb19f900153af2c</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 16:45:35</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:09:49</sys_updated_on>
         <ui_id>c04f1991-3adc-4d51-814a-96be26476a79</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e894148097fcde106fb19f900153af2c"/>
@@ -1253,10 +1253,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:26</sys_created_on>
         <sys_id>ec0be50897f412506fb19f900153afc4</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 16:45:35</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:09:49</sys_updated_on>
         <ui_id>0f6c6242-7e14-4c58-9615-9be56746d4a2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ec0be50897f412506fb19f900153afc4"/>
@@ -1331,11 +1331,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:33</sys_created_on>
         <sys_id>820b690897f412506fb19f900153afdd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-17 15:13:33</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:14</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>training_course={{e49309fd-88cd-4140-9219-8d29dd21dd0c.course}}^date_completed={{e49309fd-88cd-4140-9219-8d29dd21dd0c.Course_date.start_date}}^state=Valid</value>
+        <value>training_course={{e49309fd-88cd-4140-9219-8d29dd21dd0c.course}}^date_completed={{e49309fd-88cd-4140-9219-8d29dd21dd0c.Course_date.start_date}}^state=Valid^user={{Created_1.current.opened_by}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ec0be50897f412506fb19f900153afc4"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ec0be50897f412506fb19f900153afc4"/>
@@ -1365,10 +1365,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 08:55:48</sys_created_on>
         <sys_id>a494148097fcde106fb19f900153af31</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:06</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:25</sys_updated_on>
         <ui_id>02129deb-8ab7-48d8-8bce-756ff8b2f769</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1438,10 +1438,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:26</sys_created_on>
         <sys_id>e00be50897f412506fb19f900153afc8</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:06</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:25</sys_updated_on>
         <ui_id>bb66ccd3-237f-4485-85e5-486a20bd4231</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1617,7 +1617,7 @@
         <description/>
         <flow_priority/>
         <internal_name>requested_training</internal_name>
-        <label_cache>[{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.Course_date.start_date","label":"1 - Get Catalog Variables➛Course_date➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_train_cert_training_course_dates","column_name":"start_date","usedInstances":{"0f6c6242-7e14-4c58-9615-9be56746d4a2":["date_completed"]}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course","label":"1 - Get Catalog Variables➛course","reference":"x_snc_train_cert_training_course","reference_display":"Training Course","type":"reference","base_type":"reference","usedInstances":{"0f6c6242-7e14-4c58-9615-9be56746d4a2":["training_course"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course.course_url","label":"1 - Get Catalog Variables➛course➛Course URL","reference":"","reference_display":"Course URL","type":"url","base_type":"url","parent_table_name":"x_snc_train_cert_training_course","column_name":"course_url","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null]}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course.course_name","label":"1 - Get Catalog Variables➛course➛Course Name","reference":"","reference_display":"Course Name","type":"string","base_type":"string","parent_table_name":"x_snc_train_cert_training_course","column_name":"course_name","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null],"d0983856-2f69-42e6-9d70-9fdaf3885357":["comments"],"11a5fb44-7885-43d2-9827-ee9bc80ea910":["values"]}},{"name":"Created_1.current.opened_by.first_name","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null]}},{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":["ah_to"],"7543ab25-74bd-4f2b-a77a-daf59ba33557":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Training and Certifications Request Record","reference":"x_snc_train_cert_request","reference_display":"Training and Certifications Request","type":"reference","base_type":"reference","usedInstances":{"e49309fd-88cd-4140-9219-8d29dd21dd0c":["requested_item"],"c04f1991-3adc-4d51-814a-96be26476a79":["record"],"63b0bb61-87b5-44f3-ac87-10e3baa93dd0":["record"],"35743806-eb77-496d-9c24-f3d650034dd0":["record"],"d0983856-2f69-42e6-9d70-9fdaf3885357":["record"],"11a5fb44-7885-43d2-9827-ee9bc80ea910":["record"]},"attributes":{}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"63b0bb61-87b5-44f3-ac87-10e3baa93dd0":["assigned_to"]}},{"name":"c04f1991-3adc-4d51-814a-96be26476a79.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"02129deb-8ab7-48d8-8bce-756ff8b2f769":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Training and Certifications Request Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_train_cert_request","column_name":"assigned_to","usedInstances":{"c04f1991-3adc-4d51-814a-96be26476a79":["approval_conditions"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_train_cert_request","column_name":"opened_by","usedInstances":{"0f6c6242-7e14-4c58-9615-9be56746d4a2":["user"]}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.Course_date.start_date","label":"1 - Get Catalog Variables➛Course_date➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_train_cert_training_course_dates","column_name":"start_date","usedInstances":{"0f6c6242-7e14-4c58-9615-9be56746d4a2":["date_completed"]}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course","label":"1 - Get Catalog Variables➛course","reference":"x_snc_train_cert_training_course","reference_display":"Training Course","type":"reference","base_type":"reference","usedInstances":{"0f6c6242-7e14-4c58-9615-9be56746d4a2":["training_course"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course.course_url","label":"1 - Get Catalog Variables➛course➛Course URL","reference":"","reference_display":"Course URL","type":"url","base_type":"url","parent_table_name":"x_snc_train_cert_training_course","column_name":"course_url","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null]}},{"name":"e49309fd-88cd-4140-9219-8d29dd21dd0c.course.course_name","label":"1 - Get Catalog Variables➛course➛Course Name","reference":"","reference_display":"Course Name","type":"string","base_type":"string","parent_table_name":"x_snc_train_cert_training_course","column_name":"course_name","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null],"d0983856-2f69-42e6-9d70-9fdaf3885357":["comments"],"11a5fb44-7885-43d2-9827-ee9bc80ea910":["values"]}},{"name":"Created_1.current.opened_by.first_name","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":[null]}},{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"5b84fac5-406c-45be-a7cd-0c79bc099d27":["ah_to"],"7543ab25-74bd-4f2b-a77a-daf59ba33557":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Training and Certifications Request Record","reference":"x_snc_train_cert_request","reference_display":"Training and Certifications Request","type":"reference","base_type":"reference","usedInstances":{"e49309fd-88cd-4140-9219-8d29dd21dd0c":["requested_item"],"c04f1991-3adc-4d51-814a-96be26476a79":["record"],"63b0bb61-87b5-44f3-ac87-10e3baa93dd0":["record"],"35743806-eb77-496d-9c24-f3d650034dd0":["record"],"d0983856-2f69-42e6-9d70-9fdaf3885357":["record"],"11a5fb44-7885-43d2-9827-ee9bc80ea910":["record"]},"attributes":{}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"63b0bb61-87b5-44f3-ac87-10e3baa93dd0":["assigned_to"]}},{"name":"c04f1991-3adc-4d51-814a-96be26476a79.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"02129deb-8ab7-48d8-8bce-756ff8b2f769":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Training and Certifications Request Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_train_cert_request","column_name":"assigned_to","usedInstances":{"c04f1991-3adc-4d51-814a-96be26476a79":["approval_conditions"]}}]</label_cache>
         <master>true</master>
         <name>Requested Training</name>
         <natlang/>
@@ -1634,7 +1634,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a0ba90897f412506fb19f900153af7e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1642,7 +1642,7 @@
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=1a0ba90897f412506fb19f900153af7e"/>
@@ -1657,10 +1657,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:36</sys_created_on>
         <sys_id>fe0be90897f412506fb19f900153af16</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:05</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:24</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1773,14 +1773,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:34</sys_created_on>
         <sys_id>2e0ba90897f412506fb19f900153afa9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1857,14 +1857,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:34</sys_created_on>
         <sys_id>de0ba90897f412506fb19f900153af80</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1897,10 +1897,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:35</sys_created_on>
         <sys_id>220ba90897f412506fb19f900153affd</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <ui_id>5b84fac5-406c-45be-a7cd-0c79bc099d27</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=220ba90897f412506fb19f900153affd"/>
@@ -1992,10 +1992,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:35</sys_created_on>
         <sys_id>720be90897f412506fb19f900153af06</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <ui_id>0f6c6242-7e14-4c58-9615-9be56746d4a2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=720be90897f412506fb19f900153af06"/>
@@ -2032,11 +2032,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:35</sys_created_on>
         <sys_id>f20be90897f412506fb19f900153af07</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-17 15:13:35</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:22</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>training_course={{e49309fd-88cd-4140-9219-8d29dd21dd0c.course}}^date_completed={{e49309fd-88cd-4140-9219-8d29dd21dd0c.Course_date.start_date}}^state=Valid</value>
+        <value>training_course={{e49309fd-88cd-4140-9219-8d29dd21dd0c.course}}^date_completed={{e49309fd-88cd-4140-9219-8d29dd21dd0c.Course_date.start_date}}^state=Valid^user={{Created_1.current.opened_by}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=720be90897f412506fb19f900153af06"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=720be90897f412506fb19f900153af06"/>
@@ -2056,10 +2056,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:35</sys_created_on>
         <sys_id>720be90897f412506fb19f900153af0e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <ui_id>7543ab25-74bd-4f2b-a77a-daf59ba33557</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=720be90897f412506fb19f900153af0e"/>
@@ -2150,10 +2150,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-18 08:43:03</sys_created_on>
         <sys_id>773bd99097bc52506fb19f900153afe3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <ui_id>d0983856-2f69-42e6-9d70-9fdaf3885357</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=773bd99097bc52506fb19f900153afe3"/>
@@ -2226,10 +2226,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:35</sys_created_on>
         <sys_id>a60ba90897f412506fb19f900153aff0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <ui_id>c04f1991-3adc-4d51-814a-96be26476a79</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a60ba90897f412506fb19f900153aff0"/>
@@ -2380,10 +2380,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:35</sys_created_on>
         <sys_id>aa0ba90897f412506fb19f900153afd1</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <ui_id>e49309fd-88cd-4140-9219-8d29dd21dd0c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aa0ba90897f412506fb19f900153afd1"/>
@@ -2470,10 +2470,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:35</sys_created_on>
         <sys_id>ee0ba90897f412506fb19f900153afe6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <ui_id>63b0bb61-87b5-44f3-ac87-10e3baa93dd0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee0ba90897f412506fb19f900153afe6"/>
@@ -2546,10 +2546,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-18 08:43:04</sys_created_on>
         <sys_id>fb3bd99097bc52506fb19f900153afed</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <ui_id>11a5fb44-7885-43d2-9827-ee9bc80ea910</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fb3bd99097bc52506fb19f900153afed"/>
@@ -2622,10 +2622,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:36</sys_created_on>
         <sys_id>fe0be90897f412506fb19f900153af14</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <ui_id>35743806-eb77-496d-9c24-f3d650034dd0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fe0be90897f412506fb19f900153af14"/>
@@ -2721,10 +2721,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:35</sys_created_on>
         <sys_id>260ba90897f412506fb19f900153afc9</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <ui_id>bb66ccd3-237f-4485-85e5-486a20bd4231</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2756,10 +2756,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:35</sys_created_on>
         <sys_id>a20ba90897f412506fb19f900153afb5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:04</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:23</sys_updated_on>
         <ui_id>02129deb-8ab7-48d8-8bce-756ff8b2f769</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2970,17 +2970,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"030be90897f412506fb19f900153af69","name":"plan","plan_signature":null}}</plan>
         <plan_id>dd53140097fcde106fb19f900153af98</plan_id>
-        <snapshot>7ba98bd4977892506fb19f900153afeb</snapshot>
+        <snapshot>99024dbc973c16506fb19f900153afd8</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-17 15:13:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>030be90897f412506fb19f900153af69</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:43:05</sys_updated_on>
+        <sys_updated_on>2024-09-19 20:08:24</sys_updated_on>
         <trigger display_value="">b20be90897f412506fb19f900153af67</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=dd53140097fcde106fb19f900153af98"/>

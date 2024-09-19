@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": "RequestorView",
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "0b7bdd5097bc52506fb19f900153af64",
+        "inputTable": "x_snc_train_cert_request",
+        "screen": null,
+        "selectedTabIndex": null,
+        "userPrefs": null,
+        "view": "workspace-my-training-and-certifications-0"
+    },
+    "table": "x_snc_train_cert_request",
+    "sysId": "0b7bdd5097bc52506fb19f900153af64",
+    "query": null,
+    "extraParams": null,
+    "views": "RequestorView",
+    "selectedTabIndex": null
+}</macroponent_config>
+        <screen display_value="Training Request">ea5a7070973c16506fb19f900153afff</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 20:15:28</sys_created_on>
+        <sys_id>90530570977c16506fb19f900153afc7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_90530570977c16506fb19f900153afc7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 20:22:21</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

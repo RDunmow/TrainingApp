@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a4d44d373ba0d2106ca6f66aa5e45a21</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_train_cert_training_course_dates">
+    <x_snc_train_cert_training_course_dates action="INSERT_OR_UPDATE">
+        <duration_in_days>1</duration_in_days>
+        <start_date>2024-09-23</start_date>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 17:48:14</sys_created_on>
+        <sys_id>a4d44d373ba0d2106ca6f66aa5e45a21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 17:48:14</sys_updated_on>
+        <training_course display_value="Data Literacy for Business Professionals">522489f33ba0d2106ca6f66aa5e45a7a</training_course>
+    </x_snc_train_cert_training_course_dates>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 16:10:22</sys_created_on>
+        <sys_id>713bc0303bf4d2106ca6f66aa5e45a45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2024-09-23</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_metadata_link_713bc0303bf4d2106ca6f66aa5e45a45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 16:10:22</sys_updated_on>
+        <tablename>x_snc_train_cert_training_course_dates</tablename>
+    </sys_metadata_link>
+</record_update>

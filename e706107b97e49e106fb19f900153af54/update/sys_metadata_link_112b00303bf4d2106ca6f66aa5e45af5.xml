@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>522489f33ba0d2106ca6f66aa5e45a7a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_train_cert_training_course">
+    <x_snc_train_cert_training_course action="INSERT_OR_UPDATE">
+        <category/>
+        <cost>0</cost>
+        <course_description>Around the globe companies are relying on data to make optimal decisions and bring about better solutions for their customers.&#13;
+&#13;
+To stay ahead of the curve and not be left behind you need to develop data literacy - the ability to understand data and guide a data driven analysis process. By the end of this course, you will be prepared to lead a data driven project from start to finish. Data literacy will enable you to stand out among peers as you are able to drive robust data-driven decision making to your organization.</course_description>
+        <course_name>Data Literacy for Business Professionals</course_name>
+        <course_url>https://nowlearning.servicenow.com/lxp/en/data-literacy-for-business-professionals?id=learning_course_prev&amp;course_id=d851bb6fc3930250cfdf34ee0501310d</course_url>
+        <number>COURSE0001002</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 17:46:07</sys_created_on>
+        <sys_id>522489f33ba0d2106ca6f66aa5e45a7a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 17:47:10</sys_updated_on>
+    </x_snc_train_cert_training_course>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 16:10:03</sys_created_on>
+        <sys_id>112b00303bf4d2106ca6f66aa5e45af5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data Literacy for Business Professionals</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_metadata_link_112b00303bf4d2106ca6f66aa5e45af5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 16:10:03</sys_updated_on>
+        <tablename>x_snc_train_cert_training_course</tablename>
+    </sys_metadata_link>
+</record_update>

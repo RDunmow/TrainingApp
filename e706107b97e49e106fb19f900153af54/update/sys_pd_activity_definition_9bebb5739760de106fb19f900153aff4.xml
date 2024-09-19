@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <activity_type/>
+        <badge/>
+        <category display_value="Generic Activity">b51cee574320311089db5fb208b8f269</category>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>Get Catalog Variables</label>
+        <name>get_catalog_variables</name>
+        <outputs/>
+        <source>22f0b88cc3c632002841b63b12d3aeff</source>
+        <source_type>sys_hub_action_type_definition</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 21:48:53</sys_created_on>
+        <sys_id>9bebb5739760de106fb19f900153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Catalog Variables</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_9bebb5739760de106fb19f900153aff4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 21:48:53</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=9bebb5739760de106fb19f900153aff4"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_22f0b88cc3c632002841b63b12d3aeff^id=9bebb5739760de106fb19f900153aff4"/>
+</record_update>

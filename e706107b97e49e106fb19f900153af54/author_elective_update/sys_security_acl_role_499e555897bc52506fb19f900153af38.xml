@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:57:37</sys_created_on>
+        <sys_id>499e555897bc52506fb19f900153af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.my-training-and-certifications.*.snc_internal</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_security_acl display_value="now.my-training-and-certifications.*">4d9e555897bc52506fb19f900153af37</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_499e555897bc52506fb19f900153af38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:57:37</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</application>
+        <file_path/>
+        <instance_id>b668fae51bf7311c19254089bd4bcb0b</instance_id>
+        <instance_name>creatorai</instance_name>
+        <name>sys_security_acl_role_499e555897bc52506fb19f900153af38</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-18 08:57:37</sys_created_on><sys_id>499e555897bc52506fb19f900153af38</sys_id><sys_mod_count>0</sys_mod_count><sys_name>now.my-training-and-certifications.*.snc_internal</sys_name><sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package><sys_policy/><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_security_acl display_value="now.my-training-and-certifications.*">4d9e555897bc52506fb19f900153af37</sys_security_acl><sys_update_name>sys_security_acl_role_499e555897bc52506fb19f900153af38</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-18 08:57:37</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-401715005</payload_hash>
+        <record_name>now.my-training-and-certifications.*.snc_internal</record_name>
+        <reverted_from/>
+        <source>a47d6921971302106fb19f900153af86</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-07-09 17:40:48</sys_created_on>
+        <sys_id>dd9e155897bc52506fb19f900153af18</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19098956d000000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>9d9e15583bbc5250f67768578f6eba18</update_guid>
+        <update_guid_history>9d9e15583bbc5250f67768578f6eba18:-401715005</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="now.my-training-and-certifications.*.snc_internal">959e155897bc52506fb19f900153af19</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:57:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>02b48ee79dbf46008b264a263ae10000</sys_id>
+        <sys_metadata>499e555897bc52506fb19f900153af38</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.my-training-and-certifications.*.snc_internal</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_parent display_value="now.my-training-and-certifications.*">4d9e555897bc52506fb19f900153af37</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_scope_delete display_value="">d10154c0c5094192a89777eba4769ce9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_499e555897bc52506fb19f900153af38</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_499e555897bc52506fb19f900153af38">dd9e155897bc52506fb19f900153af18</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:57:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

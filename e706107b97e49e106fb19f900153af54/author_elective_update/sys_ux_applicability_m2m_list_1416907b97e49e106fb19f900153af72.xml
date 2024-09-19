@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="DELETE">
+        <active>true</active>
+        <applicability display_value="Training and Certifications Audience">5816907b97e49e106fb19f900153af67</applicability>
+        <list display_value="Open - Unassigned">d016907b97e49e106fb19f900153af70</list>
+        <order>0</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 14:23:51</sys_created_on>
+        <sys_id>1416907b97e49e106fb19f900153af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_1416907b97e49e106fb19f900153af72</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 14:23:51</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</application>
+        <file_path/>
+        <instance_id>b668fae51bf7311c19254089bd4bcb0b</instance_id>
+        <instance_name>creatorai</instance_name>
+        <name>sys_ux_applicability_m2m_list_1416907b97e49e106fb19f900153af72</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list"><sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Training and Certifications Audience">5816907b97e49e106fb19f900153af67</applicability><list display_value="Open - Unassigned">d016907b97e49e106fb19f900153af70</list><order>0</order><sys_class_name>sys_ux_applicability_m2m_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-16 14:23:51</sys_created_on><sys_id>1416907b97e49e106fb19f900153af72</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package><sys_policy/><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_update_name>sys_ux_applicability_m2m_list_1416907b97e49e106fb19f900153af72</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-16 14:23:51</sys_updated_on></sys_ux_applicability_m2m_list></record_update>]]></payload>
+        <payload_hash>-1098324779</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a706507b97e49e106fb19f900153af1e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 14:23:51</sys_created_on>
+        <sys_id>1016907b97e49e106fb19f900153af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191fb37ead10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 14:23:51</sys_updated_on>
+        <type>List Applicability</type>
+        <update_guid>d016907bb3e49e10a9a2646502724b73</update_guid>
+        <update_guid_history>d016907bb3e49e10a9a2646502724b73:-1098324779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 10:16:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_list">sys_ux_applicability_m2m_list</sys_db_object>
+        <sys_id>07d820e1bc614ea5a01c516ef65dfa01</sys_id>
+        <sys_metadata>1416907b97e49e106fb19f900153af72</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_scope_delete display_value="">d10154c0c5094192a89777eba4769ce9</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_list_1416907b97e49e106fb19f900153af72</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_list_1416907b97e49e106fb19f900153af72">1016907b97e49e106fb19f900153af74</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 10:16:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3bcfb43f3b60d2106ca6f66aa5e45a84" label="Training Completed" max_length="40" name="x_snc_train_cert_training_completed" text_index="true" type="collection">
+        <element label="Duration of validity" max_length="40" name="duration_of_validity" type="string"/>
+        <element label="Date completed" max_length="40" name="date_completed" type="glide_date"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element choice="1" default="Valid" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Valid" sequence="0" value="Valid"/>
+                <element inactive_on_update="false" label="Expired" sequence="1" value="Expired"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Training Course" max_length="32" name="training_course" reference="x_snc_train_cert_training_course" type="reference"/>
+        <index name="index">
+            <element name="training_course"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

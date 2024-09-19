@@ -1,0 +1,2373 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=377000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>049a0e497743011031e3b3c64b5a9996</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>update_certification_dates</internal_name>
+        <label_cache>[{"name":"b667ff53-8be5-445e-b9f0-737874963f25.Date_Obtained","label":"1 - Get Catalog Variables➛Date_Obtained","reference":"","reference_display":"Date_Obtained","type":"glide_date","base_type":"glide_date","usedInstances":{"fa4859bf-2922-4785-8cdd-055fbbcfac31":["date_completed"],"fd6e0e7a-2ae1-4036-96f5-c253da00f1b4":["values"]},"attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"b667ff53-8be5-445e-b9f0-737874963f25.current_certification","label":"1 - Get Catalog Variables➛current_certification","reference":"x_snc_train_cert_training_completed","reference_display":"Training Completed","type":"reference","base_type":"reference","usedInstances":{"fa4859bf-2922-4785-8cdd-055fbbcfac31":["record"],"fd6e0e7a-2ae1-4036-96f5-c253da00f1b4":["record"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"0e4426e6-8325-4fa7-9f33-14670094bf6c.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"731011d0-39e1-4dac-8c88-f3366fdc911a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"0e4426e6-8325-4fa7-9f33-14670094bf6c":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Training and Certifications Request Record","reference":"x_snc_train_cert_request","reference_display":"Training and Certifications Request","type":"reference","base_type":"reference","usedInstances":{"b667ff53-8be5-445e-b9f0-737874963f25":["requested_item"],"0e4426e6-8325-4fa7-9f33-14670094bf6c":["record"],"5b166409-deb2-4ffa-bd00-d6af810529c5":["record"],"6619f97b-2b93-4395-884e-57a2c09d4fac":["record"],"434edb68-7aec-469d-b474-0437a12ec7a7":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>857dd99497bc52506fb19f900153affd</master_snapshot>
+        <name>Update Certification Dates</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>6d7d1d9497bc52506fb19f900153afb2</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:46:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>780c911497bc52506fb19f900153af11</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Update Certification Dates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_hub_flow_780c911497bc52506fb19f900153af11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=780c911497bc52506fb19f900153af11"/>
+    <sys_variable_value action="delete_multiple" query="document_key=780c911497bc52506fb19f900153af11"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_train_cert_request">request_type=666771bb9720de106fb19f900153af41<item display_table="sc_cat_item_producer" display_value="Update Training Certification" endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="666771bb9720de106fb19f900153af41"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d7d1d9497bc52506fb19f900153afb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <table>x_snc_train_cert_request</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>780c911497bc52506fb19f900153af11</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_id>297d1d9497bc52506fb19f900153afb3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <trigger display_value="">6d7d1d9497bc52506fb19f900153afb2</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=780c911497bc52506fb19f900153af11^sys_idNOT IN297d1d9497bc52506fb19f900153afb3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=780c911497bc52506fb19f900153af11^sys_idNOT IN450c911497bc52506fb19f900153af2f"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:46:25</sys_created_on>
+        <sys_id>450c911497bc52506fb19f900153af2f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=450c911497bc52506fb19f900153af2f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>450c911497bc52506fb19f900153af2f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:46:25</sys_created_on>
+        <sys_id>850c911497bc52506fb19f900153af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:46:25</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>450c911497bc52506fb19f900153af2f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:46:25</sys_created_on>
+        <sys_id>890c911497bc52506fb19f900153af3c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:47:16</sys_updated_on>
+        <value>request_type=666771bb9720de106fb19f900153af41</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=780c911497bc52506fb19f900153af11"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=780c911497bc52506fb19f900153af11^sys_idNOT IN380c911497bc52506fb19f900153af12"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>780c911497bc52506fb19f900153af11</id>
+        <name>Update Certification Dates</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:46:25</sys_created_on>
+        <sys_id>380c911497bc52506fb19f900153af12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:46:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=380c911497bc52506fb19f900153af12"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=780c911497bc52506fb19f900153af11^sys_idNOT IN4d0c911497bc52506fb19f900153af29,b80c911497bc52506fb19f900153af25"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</model>
+        <model_id>780c911497bc52506fb19f900153af11</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_780c911497bc52506fb19f900153af11</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:46:25</sys_created_on>
+        <sys_id>4d0c911497bc52506fb19f900153af29</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4d0c911497bc52506fb19f900153af29"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</model>
+        <model_id>780c911497bc52506fb19f900153af11</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_780c911497bc52506fb19f900153af11</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:46:25</sys_created_on>
+        <sys_id>b80c911497bc52506fb19f900153af25</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b80c911497bc52506fb19f900153af25"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=780c911497bc52506fb19f900153af11"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=780c911497bc52506fb19f900153af11"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=780c911497bc52506fb19f900153af11^sys_idNOT IN1d3c591497bc52506fb19f900153af64,236d999497bc52506fb19f900153af1b,6b6d999497bc52506fb19f900153af24,a76d999497bc52506fb19f900153af4c,e36d999497bc52506fb19f900153af37,e76d999497bc52506fb19f900153af31"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:47:16</sys_created_on>
+        <sys_id>1d3c591497bc52506fb19f900153af64</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <ui_id>b667ff53-8be5-445e-b9f0-737874963f25</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1d3c591497bc52506fb19f900153af64"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1d3c591497bc52506fb19f900153af64</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:47:16</sys_created_on>
+        <sys_id>a53c591497bc52506fb19f900153af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:47:16</sys_updated_on>
+        <value>666771bb9720de106fb19f900153af41</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1d3c591497bc52506fb19f900153af64</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>e36d999497bc52506fb19f900153af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>ba6771bb9720de106fb19f900153af5a:item_option_new,366771bb9720de106fb19f900153af67:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1d3c591497bc52506fb19f900153af64"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>1d3c591497bc52506fb19f900153af64</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>6f6d999497bc52506fb19f900153af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>1d3c591497bc52506fb19f900153af64</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:47:16</sys_created_on>
+        <sys_id>253c591497bc52506fb19f900153af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:47:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>1d3c591497bc52506fb19f900153af64</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:47:16</sys_created_on>
+        <sys_id>6d3c591497bc52506fb19f900153af66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:47:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1d3c591497bc52506fb19f900153af64"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1d3c591497bc52506fb19f900153af64"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>236d999497bc52506fb19f900153af1b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <ui_id>434edb68-7aec-469d-b474-0437a12ec7a7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=236d999497bc52506fb19f900153af1b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>236d999497bc52506fb19f900153af1b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:41</sys_created_on>
+        <sys_id>747dd99497bc52506fb19f900153af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:41</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>236d999497bc52506fb19f900153af1b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>a76d999497bc52506fb19f900153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>236d999497bc52506fb19f900153af1b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:41</sys_created_on>
+        <sys_id>b07dd99497bc52506fb19f900153af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:41</sys_updated_on>
+        <value>comments=Certification update request has been passed to your manager for approval.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>236d999497bc52506fb19f900153af1b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>e36d999497bc52506fb19f900153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>comments=Certification update request has been passed to your manager for approval.</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=236d999497bc52506fb19f900153af1b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>236d999497bc52506fb19f900153af1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>af6d999497bc52506fb19f900153af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>236d999497bc52506fb19f900153af1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:41</sys_created_on>
+        <sys_id>307dd99497bc52506fb19f900153af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>236d999497bc52506fb19f900153af1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>eb6d999497bc52506fb19f900153af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>236d999497bc52506fb19f900153af1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:41</sys_created_on>
+        <sys_id>b87dd99497bc52506fb19f900153af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>236d999497bc52506fb19f900153af1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>636d999497bc52506fb19f900153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>236d999497bc52506fb19f900153af1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:41</sys_created_on>
+        <sys_id>7c7dd99497bc52506fb19f900153af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=236d999497bc52506fb19f900153af1b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=236d999497bc52506fb19f900153af1b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>6b6d999497bc52506fb19f900153af24</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <ui_id>0e4426e6-8325-4fa7-9f33-14670094bf6c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6b6d999497bc52506fb19f900153af24"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b6d999497bc52506fb19f900153af24</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>2f6d999497bc52506fb19f900153af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b6d999497bc52506fb19f900153af24</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>6b6d999497bc52506fb19f900153af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b6d999497bc52506fb19f900153af24</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>a76d999497bc52506fb19f900153af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b6d999497bc52506fb19f900153af24</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>ef6d999497bc52506fb19f900153af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6b6d999497bc52506fb19f900153af24"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>6b6d999497bc52506fb19f900153af24</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>636d999497bc52506fb19f900153af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyU[{{Created_1.current.opened_by.manager}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>6b6d999497bc52506fb19f900153af24</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>676d999497bc52506fb19f900153af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>6b6d999497bc52506fb19f900153af24</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>af6d999497bc52506fb19f900153af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>6b6d999497bc52506fb19f900153af24</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>2b6d999497bc52506fb19f900153af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6b6d999497bc52506fb19f900153af24</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>eb6d999497bc52506fb19f900153af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>6b6d999497bc52506fb19f900153af24</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>276d999497bc52506fb19f900153af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6b6d999497bc52506fb19f900153af24"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6b6d999497bc52506fb19f900153af24"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>8</order>
+        <parent_ui_id>7aab7fc9-f69f-4e33-b81c-6f83440fddaf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>a76d999497bc52506fb19f900153af4c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <ui_id>6619f97b-2b93-4395-884e-57a2c09d4fac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a76d999497bc52506fb19f900153af4c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a76d999497bc52506fb19f900153af4c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>347dd99497bc52506fb19f900153af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a76d999497bc52506fb19f900153af4c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>707dd99497bc52506fb19f900153af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <value>comments=Certificate has not been approved by your manager, please review and resubmit if this was in error^state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a76d999497bc52506fb19f900153af4c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>a36d999497bc52506fb19f900153af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a76d999497bc52506fb19f900153af4c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>ef6d999497bc52506fb19f900153af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>comments=Certificate has not been approved by your manager, please review and resubmit if this was in error^state=3</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a76d999497bc52506fb19f900153af4c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a76d999497bc52506fb19f900153af4c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>ab6d999497bc52506fb19f900153af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a76d999497bc52506fb19f900153af4c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>fc7dd99497bc52506fb19f900153af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a76d999497bc52506fb19f900153af4c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>e76d999497bc52506fb19f900153af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a76d999497bc52506fb19f900153af4c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>787dd99497bc52506fb19f900153af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a76d999497bc52506fb19f900153af4c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>6f6d999497bc52506fb19f900153af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a76d999497bc52506fb19f900153af4c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>3c7dd99497bc52506fb19f900153af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a76d999497bc52506fb19f900153af4c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a76d999497bc52506fb19f900153af4c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>6</order>
+        <parent_ui_id>731011d0-39e1-4dac-8c88-f3366fdc911a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>e36d999497bc52506fb19f900153af37</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <ui_id>5b166409-deb2-4ffa-bd00-d6af810529c5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e36d999497bc52506fb19f900153af37"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e36d999497bc52506fb19f900153af37</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>307dd99497bc52506fb19f900153af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e36d999497bc52506fb19f900153af37</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>7c7dd99497bc52506fb19f900153af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <value>comments=Certificate update has been approved by your manager and your certification records have been updated.^state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e36d999497bc52506fb19f900153af37</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>a76d999497bc52506fb19f900153af45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e36d999497bc52506fb19f900153af37</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>e36d999497bc52506fb19f900153af45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>comments=Certificate update has been approved by your manager and your certification records have been updated.^state=3</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e36d999497bc52506fb19f900153af37"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e36d999497bc52506fb19f900153af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>af6d999497bc52506fb19f900153af44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e36d999497bc52506fb19f900153af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>f87dd99497bc52506fb19f900153af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e36d999497bc52506fb19f900153af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>276d999497bc52506fb19f900153af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e36d999497bc52506fb19f900153af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>747dd99497bc52506fb19f900153af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e36d999497bc52506fb19f900153af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>636d999497bc52506fb19f900153af45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e36d999497bc52506fb19f900153af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>387dd99497bc52506fb19f900153af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e36d999497bc52506fb19f900153af37"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e36d999497bc52506fb19f900153af37"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>5</order>
+        <parent_ui_id>731011d0-39e1-4dac-8c88-f3366fdc911a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>e76d999497bc52506fb19f900153af31</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <ui_id>fa4859bf-2922-4785-8cdd-055fbbcfac31</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e76d999497bc52506fb19f900153af31"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e76d999497bc52506fb19f900153af31</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>236d999497bc52506fb19f900153af33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>x_snc_train_cert_training_completed</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e76d999497bc52506fb19f900153af31</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>707dd99497bc52506fb19f900153af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <value>x_snc_train_cert_training_completed</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e76d999497bc52506fb19f900153af31"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e76d999497bc52506fb19f900153af31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>eb6d999497bc52506fb19f900153af32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{b667ff53-8be5-445e-b9f0-737874963f25.current_certification}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e76d999497bc52506fb19f900153af31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>fc7dd99497bc52506fb19f900153af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{b667ff53-8be5-445e-b9f0-737874963f25.current_certification}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e76d999497bc52506fb19f900153af31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>2b6d999497bc52506fb19f900153af32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e76d999497bc52506fb19f900153af31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>787dd99497bc52506fb19f900153af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e76d999497bc52506fb19f900153af31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>af6d999497bc52506fb19f900153af32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>date_completed={{b667ff53-8be5-445e-b9f0-737874963f25.Date_Obtained}}^state=Valid</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e76d999497bc52506fb19f900153af31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>3c7dd99497bc52506fb19f900153af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>date_completed={{b667ff53-8be5-445e-b9f0-737874963f25.Date_Obtained}}^state=Valid</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e76d999497bc52506fb19f900153af31"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e76d999497bc52506fb19f900153af31"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=780c911497bc52506fb19f900153af11"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=780c911497bc52506fb19f900153af11^sys_idNOT INa36d999497bc52506fb19f900153af29,a36d999497bc52506fb19f900153af46"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">676d999497bc52506fb19f900153af28</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>a36d999497bc52506fb19f900153af29</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <ui_id>731011d0-39e1-4dac-8c88-f3366fdc911a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a36d999497bc52506fb19f900153af29"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a36d999497bc52506fb19f900153af29</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>ef6d999497bc52506fb19f900153af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <value>Update Approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a36d999497bc52506fb19f900153af29"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>a36d999497bc52506fb19f900153af29</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>6f6d999497bc52506fb19f900153af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0e4426e6-8325-4fa7-9f33-14670094bf6c.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>a36d999497bc52506fb19f900153af29</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>ab6d999497bc52506fb19f900153af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a36d999497bc52506fb19f900153af29"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a36d999497bc52506fb19f900153af29"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ab6d999497bc52506fb19f900153af45</block>
+        <comment/>
+        <connected_to>731011d0-39e1-4dac-8c88-f3366fdc911a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:36</sys_created_on>
+        <sys_id>a36d999497bc52506fb19f900153af46</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <ui_id>7aab7fc9-f69f-4e33-b81c-6f83440fddaf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a36d999497bc52506fb19f900153af46"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a36d999497bc52506fb19f900153af46"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a36d999497bc52506fb19f900153af46"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=780c911497bc52506fb19f900153af11"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=780c911497bc52506fb19f900153af11"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_780c911497bc52506fb19f900153af11^sys_idNOT IN8d0c911497bc52506fb19f900153af2b,bc0c911497bc52506fb19f900153af28"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_780c911497bc52506fb19f900153af11</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:46:25</sys_created_on>
+        <sys_id>8d0c911497bc52506fb19f900153af2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:46:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_780c911497bc52506fb19f900153af11</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:46:25</sys_created_on>
+        <sys_id>bc0c911497bc52506fb19f900153af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:46:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_780c911497bc52506fb19f900153af11"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_780c911497bc52506fb19f900153af11"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_780c911497bc52506fb19f900153af11"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>049a0e497743011031e3b3c64b5a9996</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>update_certification_dates</internal_name>
+        <label_cache>[{"name":"b667ff53-8be5-445e-b9f0-737874963f25.Date_Obtained","label":"1 - Get Catalog Variables➛Date_Obtained","reference":"","reference_display":"Date_Obtained","type":"glide_date","base_type":"glide_date","usedInstances":{"fa4859bf-2922-4785-8cdd-055fbbcfac31":["date_completed"],"fd6e0e7a-2ae1-4036-96f5-c253da00f1b4":["values"]},"attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"b667ff53-8be5-445e-b9f0-737874963f25.current_certification","label":"1 - Get Catalog Variables➛current_certification","reference":"x_snc_train_cert_training_completed","reference_display":"Training Completed","type":"reference","base_type":"reference","usedInstances":{"fa4859bf-2922-4785-8cdd-055fbbcfac31":["record"],"fd6e0e7a-2ae1-4036-96f5-c253da00f1b4":["record"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"0e4426e6-8325-4fa7-9f33-14670094bf6c.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"731011d0-39e1-4dac-8c88-f3366fdc911a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Training and Certifications Request Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"0e4426e6-8325-4fa7-9f33-14670094bf6c":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Training and Certifications Request Record","reference":"x_snc_train_cert_request","reference_display":"Training and Certifications Request","type":"reference","base_type":"reference","usedInstances":{"b667ff53-8be5-445e-b9f0-737874963f25":["requested_item"],"0e4426e6-8325-4fa7-9f33-14670094bf6c":["record"],"5b166409-deb2-4ffa-bd00-d6af810529c5":["record"],"6619f97b-2b93-4395-884e-57a2c09d4fac":["record"],"434edb68-7aec-469d-b474-0437a12ec7a7":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Update Certification Dates</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Update Certification Dates">780c911497bc52506fb19f900153af11</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>857dd99497bc52506fb19f900153affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=857dd99497bc52506fb19f900153affd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=857dd99497bc52506fb19f900153affd"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=857dd99497bc52506fb19f900153affd^sys_idNOT INd97d1d9497bc52506fb19f900153af7c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">857dd99497bc52506fb19f900153affd</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_id>d97d1d9497bc52506fb19f900153af7c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d97d1d9497bc52506fb19f900153af7c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d97d1d9497bc52506fb19f900153af7c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_id>157d1d9497bc52506fb19f900153af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <value>request_type=666771bb9720de106fb19f900153af41</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d97d1d9497bc52506fb19f900153af7c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_id>d57d1d9497bc52506fb19f900153af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=857dd99497bc52506fb19f900153affd"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=857dd99497bc52506fb19f900153affd^sys_idNOT INc57dd99497bc52506fb19f900153affe"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>857dd99497bc52506fb19f900153affd</id>
+        <name>Update Certification Dates</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>c57dd99497bc52506fb19f900153affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c57dd99497bc52506fb19f900153affe"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=857dd99497bc52506fb19f900153affd^sys_idNOT INc97dd99497bc52506fb19f900153afff,cd7d1d9497bc52506fb19f900153af39"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Certification Dates">857dd99497bc52506fb19f900153affd</model>
+        <model_id>857dd99497bc52506fb19f900153affd</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_857dd99497bc52506fb19f900153affd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:42</sys_created_on>
+        <sys_id>c97dd99497bc52506fb19f900153afff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c97dd99497bc52506fb19f900153afff"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Certification Dates">857dd99497bc52506fb19f900153affd</model>
+        <model_id>857dd99497bc52506fb19f900153affd</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_857dd99497bc52506fb19f900153affd</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>cd7d1d9497bc52506fb19f900153af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cd7d1d9497bc52506fb19f900153af39"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=857dd99497bc52506fb19f900153affd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=857dd99497bc52506fb19f900153affd"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=857dd99497bc52506fb19f900153affd^sys_idNOT IN117d1d9497bc52506fb19f900153af55,5d7d1d9497bc52506fb19f900153af66,957d1d9497bc52506fb19f900153af6e,d17d1d9497bc52506fb19f900153af5d,d57d1d9497bc52506fb19f900153af74,d97d1d9497bc52506fb19f900153af7a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">857dd99497bc52506fb19f900153affd</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>117d1d9497bc52506fb19f900153af55</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <ui_id>b667ff53-8be5-445e-b9f0-737874963f25</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=117d1d9497bc52506fb19f900153af55"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>117d1d9497bc52506fb19f900153af55</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>1d7d1d9497bc52506fb19f900153af56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value>666771bb9720de106fb19f900153af41</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>117d1d9497bc52506fb19f900153af55</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>597d1d9497bc52506fb19f900153af56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value>ba6771bb9720de106fb19f900153af5a:item_option_new,366771bb9720de106fb19f900153af67:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=117d1d9497bc52506fb19f900153af55"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>117d1d9497bc52506fb19f900153af55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>517d1d9497bc52506fb19f900153af56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>117d1d9497bc52506fb19f900153af55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>d57d1d9497bc52506fb19f900153af56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>117d1d9497bc52506fb19f900153af55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>157d1d9497bc52506fb19f900153af56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=117d1d9497bc52506fb19f900153af55"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=117d1d9497bc52506fb19f900153af55"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">857dd99497bc52506fb19f900153affd</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>5d7d1d9497bc52506fb19f900153af66</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <ui_id>0e4426e6-8325-4fa7-9f33-14670094bf6c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5d7d1d9497bc52506fb19f900153af66"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5d7d1d9497bc52506fb19f900153af66</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>197d1d9497bc52506fb19f900153af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5d7d1d9497bc52506fb19f900153af66</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>557d1d9497bc52506fb19f900153af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5d7d1d9497bc52506fb19f900153af66</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>9d7d1d9497bc52506fb19f900153af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5d7d1d9497bc52506fb19f900153af66</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>d97d1d9497bc52506fb19f900153af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5d7d1d9497bc52506fb19f900153af66"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>5d7d1d9497bc52506fb19f900153af66</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>117d1d9497bc52506fb19f900153af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyU[{{Created_1.current.opened_by.manager}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>5d7d1d9497bc52506fb19f900153af66</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>157d1d9497bc52506fb19f900153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>5d7d1d9497bc52506fb19f900153af66</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>5d7d1d9497bc52506fb19f900153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>5d7d1d9497bc52506fb19f900153af66</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>d57d1d9497bc52506fb19f900153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5d7d1d9497bc52506fb19f900153af66</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>997d1d9497bc52506fb19f900153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>5d7d1d9497bc52506fb19f900153af66</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>d17d1d9497bc52506fb19f900153af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5d7d1d9497bc52506fb19f900153af66"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5d7d1d9497bc52506fb19f900153af66"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">857dd99497bc52506fb19f900153affd</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>5</order>
+        <parent_ui_id>731011d0-39e1-4dac-8c88-f3366fdc911a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>957d1d9497bc52506fb19f900153af6e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <ui_id>fa4859bf-2922-4785-8cdd-055fbbcfac31</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=957d1d9497bc52506fb19f900153af6e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>957d1d9497bc52506fb19f900153af6e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>dd7d1d9497bc52506fb19f900153af6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value>x_snc_train_cert_training_completed</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=957d1d9497bc52506fb19f900153af6e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>957d1d9497bc52506fb19f900153af6e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>5d7d1d9497bc52506fb19f900153af6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{b667ff53-8be5-445e-b9f0-737874963f25.current_certification}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>957d1d9497bc52506fb19f900153af6e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>d57d1d9497bc52506fb19f900153af6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>957d1d9497bc52506fb19f900153af6e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>997d1d9497bc52506fb19f900153af6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>date_completed={{b667ff53-8be5-445e-b9f0-737874963f25.Date_Obtained}}^state=Valid</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=957d1d9497bc52506fb19f900153af6e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=957d1d9497bc52506fb19f900153af6e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">857dd99497bc52506fb19f900153affd</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>d17d1d9497bc52506fb19f900153af5d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <ui_id>434edb68-7aec-469d-b474-0437a12ec7a7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d17d1d9497bc52506fb19f900153af5d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d17d1d9497bc52506fb19f900153af5d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>1d7d1d9497bc52506fb19f900153af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value>comments=Certification update request has been passed to your manager for approval.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d17d1d9497bc52506fb19f900153af5d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>dd7d1d9497bc52506fb19f900153af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d17d1d9497bc52506fb19f900153af5d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d17d1d9497bc52506fb19f900153af5d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>997d1d9497bc52506fb19f900153af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d17d1d9497bc52506fb19f900153af5d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>157d1d9497bc52506fb19f900153af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d17d1d9497bc52506fb19f900153af5d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>d57d1d9497bc52506fb19f900153af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d17d1d9497bc52506fb19f900153af5d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d17d1d9497bc52506fb19f900153af5d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">857dd99497bc52506fb19f900153affd</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>6</order>
+        <parent_ui_id>731011d0-39e1-4dac-8c88-f3366fdc911a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>d57d1d9497bc52506fb19f900153af74</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <ui_id>5b166409-deb2-4ffa-bd00-d6af810529c5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d57d1d9497bc52506fb19f900153af74"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d57d1d9497bc52506fb19f900153af74</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>117d1d9497bc52506fb19f900153af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value>comments=Certificate update has been approved by your manager and your certification records have been updated.^state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d57d1d9497bc52506fb19f900153af74</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>d17d1d9497bc52506fb19f900153af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d57d1d9497bc52506fb19f900153af74"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d57d1d9497bc52506fb19f900153af74</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>9d7d1d9497bc52506fb19f900153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d57d1d9497bc52506fb19f900153af74</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>197d1d9497bc52506fb19f900153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d57d1d9497bc52506fb19f900153af74</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>d97d1d9497bc52506fb19f900153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d57d1d9497bc52506fb19f900153af74"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d57d1d9497bc52506fb19f900153af74"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Certification Dates">857dd99497bc52506fb19f900153affd</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>8</order>
+        <parent_ui_id>7aab7fc9-f69f-4e33-b81c-6f83440fddaf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_id>d97d1d9497bc52506fb19f900153af7a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <ui_id>6619f97b-2b93-4395-884e-57a2c09d4fac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d97d1d9497bc52506fb19f900153af7a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d97d1d9497bc52506fb19f900153af7a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_id>157d1d9497bc52506fb19f900153af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <value>comments=Certificate has not been approved by your manager, please review and resubmit if this was in error^state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d97d1d9497bc52506fb19f900153af7a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_id>d57d1d9497bc52506fb19f900153af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <value>x_snc_train_cert_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d97d1d9497bc52506fb19f900153af7a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d97d1d9497bc52506fb19f900153af7a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_id>917d1d9497bc52506fb19f900153af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d97d1d9497bc52506fb19f900153af7a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_id>1d7d1d9497bc52506fb19f900153af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d97d1d9497bc52506fb19f900153af7a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_id>dd7d1d9497bc52506fb19f900153af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d97d1d9497bc52506fb19f900153af7a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d97d1d9497bc52506fb19f900153af7a"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=857dd99497bc52506fb19f900153affd"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=857dd99497bc52506fb19f900153affd^sys_idNOT IN557d1d9497bc52506fb19f900153af45,997d1d9497bc52506fb19f900153af4c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">676d999497bc52506fb19f900153af28</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Certification Dates">857dd99497bc52506fb19f900153affd</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>557d1d9497bc52506fb19f900153af45</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <ui_id>731011d0-39e1-4dac-8c88-f3366fdc911a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=557d1d9497bc52506fb19f900153af45"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>557d1d9497bc52506fb19f900153af45</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>5d7d1d9497bc52506fb19f900153af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <value>Update Approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=557d1d9497bc52506fb19f900153af45"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>557d1d9497bc52506fb19f900153af45</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>d97d1d9497bc52506fb19f900153af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0e4426e6-8325-4fa7-9f33-14670094bf6c.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>557d1d9497bc52506fb19f900153af45</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>197d1d9497bc52506fb19f900153af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=557d1d9497bc52506fb19f900153af45"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=557d1d9497bc52506fb19f900153af45"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ab6d999497bc52506fb19f900153af45</block>
+        <comment/>
+        <connected_to>731011d0-39e1-4dac-8c88-f3366fdc911a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Certification Dates">857dd99497bc52506fb19f900153affd</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>997d1d9497bc52506fb19f900153af4c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <ui_id>7aab7fc9-f69f-4e33-b81c-6f83440fddaf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=997d1d9497bc52506fb19f900153af4c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=997d1d9497bc52506fb19f900153af4c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=997d1d9497bc52506fb19f900153af4c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=857dd99497bc52506fb19f900153affd"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=857dd99497bc52506fb19f900153affd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_857dd99497bc52506fb19f900153affd^sys_idNOT IN057d1d9497bc52506fb19f900153af36,c57d1d9497bc52506fb19f900153af3e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_857dd99497bc52506fb19f900153affd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>057d1d9497bc52506fb19f900153af36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_857dd99497bc52506fb19f900153affd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:43</sys_created_on>
+        <sys_id>c57d1d9497bc52506fb19f900153af3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_857dd99497bc52506fb19f900153affd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_857dd99497bc52506fb19f900153affd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_857dd99497bc52506fb19f900153affd"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>780c911497bc52506fb19f900153af11</sys_id>
+        <latest_snapshot>857dd99497bc52506fb19f900153affd</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=780c911497bc52506fb19f900153af11^sys_idNOT INe97d1d9497bc52506fb19f900153afb4"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>780c911497bc52506fb19f900153af11</plan_id>
+        <snapshot>857dd99497bc52506fb19f900153affd</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:52:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e97d1d9497bc52506fb19f900153afb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:52:44</sys_updated_on>
+        <trigger display_value="">6d7d1d9497bc52506fb19f900153afb2</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=780c911497bc52506fb19f900153af11"/>
+</record_update>

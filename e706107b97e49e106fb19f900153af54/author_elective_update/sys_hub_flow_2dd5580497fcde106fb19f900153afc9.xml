@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>intermediateFlowVersion=0.4,labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview>sla management</display_name_after_preview>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source>text2flow</generation_source>
+        <internal_name/>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>sla management69d</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus>preview</substatus>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 09:01:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2dd5580497fcde106fb19f900153afc9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sla management69d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_hub_flow_2dd5580497fcde106fb19f900153afc9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 09:01:20</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_variable_value action="DELETE" query="document_key=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=2dd5580497fcde106fb19f900153afc9^sys_idNOT IN2dd5580497fcde106fb19f900153afca"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>2dd5580497fcde106fb19f900153afc9</id>
+        <name>sla management69d</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 09:01:20</sys_created_on>
+        <sys_id>2dd5580497fcde106fb19f900153afca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 09:01:20</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=2dd5580497fcde106fb19f900153afca"/>
+    <sys_hub_flow_input action="DELETE" query="model=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_hub_flow_output action="DELETE" query="model=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_hub_action_instance action="DELETE" query="flow=2dd5580497fcde106fb19f900153afc9^sys_idNOT IN3dd5d80497fcde106fb19f900153afab,3dd5d80497fcde106fb19f900153afc0,7dd5d80497fcde106fb19f900153afb0,b9d5d80497fcde106fb19f900153afb6,fdd5d80497fcde106fb19f900153afba"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="SLA Percentage Timer">a1a50c4573873300d70877186bf6a762</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 09:01:20</sys_created_on>
+        <sys_id>3dd5d80497fcde106fb19f900153afab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 09:01:20</sys_updated_on>
+        <ui_id>e5d5d804-f2fc-de10-23e5-4ebf95096581</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=3dd5d80497fcde106fb19f900153afab"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_a1a50c4573873300d70877186bf6a762^id=3dd5d80497fcde106fb19f900153afab"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=3dd5d80497fcde106fb19f900153afab"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=3dd5d80497fcde106fb19f900153afab"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="SLA Percentage Timer">a1a50c4573873300d70877186bf6a762</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 09:01:20</sys_created_on>
+        <sys_id>3dd5d80497fcde106fb19f900153afc0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 09:01:20</sys_updated_on>
+        <ui_id>7dd5d804-bdfc-de10-9b4f-1f9fa9927aa2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=3dd5d80497fcde106fb19f900153afc0"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_a1a50c4573873300d70877186bf6a762^id=3dd5d80497fcde106fb19f900153afc0"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=3dd5d80497fcde106fb19f900153afc0"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=3dd5d80497fcde106fb19f900153afc0"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 09:01:20</sys_created_on>
+        <sys_id>7dd5d80497fcde106fb19f900153afb0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 09:01:20</sys_updated_on>
+        <ui_id>b1d5d804-0cfc-de10-348c-d8058a7d7e88</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=7dd5d80497fcde106fb19f900153afb0"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27^id=7dd5d80497fcde106fb19f900153afb0"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=7dd5d80497fcde106fb19f900153afb0"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=7dd5d80497fcde106fb19f900153afb0"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="SLA Percentage Timer">a1a50c4573873300d70877186bf6a762</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 09:01:20</sys_created_on>
+        <sys_id>b9d5d80497fcde106fb19f900153afb6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 09:01:20</sys_updated_on>
+        <ui_id>75d5d804-31fc-de10-09bf-77f9d6cbfa8d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=b9d5d80497fcde106fb19f900153afb6"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_a1a50c4573873300d70877186bf6a762^id=b9d5d80497fcde106fb19f900153afb6"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=b9d5d80497fcde106fb19f900153afb6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=b9d5d80497fcde106fb19f900153afb6"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 09:01:20</sys_created_on>
+        <sys_id>fdd5d80497fcde106fb19f900153afba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 09:01:20</sys_updated_on>
+        <ui_id>b9d5d804-ecfc-de10-5f1a-47b6ccdaba9d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=fdd5d80497fcde106fb19f900153afba"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27^id=fdd5d80497fcde106fb19f900153afba"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=fdd5d80497fcde106fb19f900153afba"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=fdd5d80497fcde106fb19f900153afba"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=2dd5580497fcde106fb19f900153afc9^sys_idNOT IN71d5d80497fcde106fb19f900153afc2"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">35d5d80497fcde106fb19f900153afc1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 09:01:20</sys_created_on>
+        <sys_id>71d5d80497fcde106fb19f900153afc2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 09:01:20</sys_updated_on>
+        <ui_id>f5d5d804-c2fc-de10-5e22-eb50e0fcefa3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=71d5d80497fcde106fb19f900153afc2"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e^id=71d5d80497fcde106fb19f900153afc2"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=71d5d80497fcde106fb19f900153afc2"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=71d5d80497fcde106fb19f900153afc2"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_hub_flow_variable action="DELETE" query="model=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_2dd5580497fcde106fb19f900153afc9"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_2dd5580497fcde106fb19f900153afc9"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_2dd5580497fcde106fb19f900153afc9"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_2dd5580497fcde106fb19f900153afc9"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=2dd5580497fcde106fb19f900153afc9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</application>
+        <file_path/>
+        <instance_id>b668fae51bf7311c19254089bd4bcb0b</instance_id>
+        <instance_name>creatorai</instance_name>
+        <name>sys_hub_flow_2dd5580497fcde106fb19f900153afc9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>intermediateFlowVersion=0.4,labelCacheCleanUpExecuted=true</attributes><authored_on_release_version>25000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><display_name_after_preview>sla management</display_name_after_preview><flow_priority>MEDIUM</flow_priority><generation_source>text2flow</generation_source><internal_name/><label_cache>null</label_cache><latest_snapshot/><master_snapshot/><name>sla management69d</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><substatus>preview</substatus><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-17 09:01:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2dd5580497fcde106fb19f900153afc9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sla management69d</sys_name><sys_overrides/><sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package><sys_policy/><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_update_name>sys_hub_flow_2dd5580497fcde106fb19f900153afc9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-17 09:01:20</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=2dd5580497fcde106fb19f900153afc9"/><sys_variable_value action="delete_multiple" query="document_key=2dd5580497fcde106fb19f900153afc9"/><sys_hub_trigger_instance action="delete_multiple" query="flow=2dd5580497fcde106fb19f900153afc9"/><sys_hub_flow_stage action="delete_multiple" query="flow=2dd5580497fcde106fb19f900153afc9"/><sys_flow_cat_variable_model action="delete_multiple" query="id=2dd5580497fcde106fb19f900153afc9^sys_idNOT IN2dd5580497fcde106fb19f900153afca"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>2dd5580497fcde106fb19f900153afc9</id><name>sla management69d</name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-17 09:01:20</sys_created_on><sys_id>2dd5580497fcde106fb19f900153afca</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-17 09:01:20</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2dd5580497fcde106fb19f900153afca"/><sys_hub_flow_input action="delete_multiple" query="model=2dd5580497fcde106fb19f900153afc9"/><sys_hub_flow_output action="delete_multiple" query="model=2dd5580497fcde106fb19f900153afc9"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=2dd5580497fcde106fb19f900153afc9"/><sys_hub_action_instance action="delete_multiple" query="flow=2dd5580497fcde106fb19f900153afc9^sys_idNOT IN3dd5d80497fcde106fb19f900153afab,3dd5d80497fcde106fb19f900153afc0,7dd5d80497fcde106fb19f900153afb0,b9d5d80497fcde106fb19f900153afb6,fdd5d80497fcde106fb19f900153afba"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="SLA Percentage Timer">a1a50c4573873300d70877186bf6a762</action_type><action_type_parent/><attributes/><comment/><compiled_snapshot/><display_text/><flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow><generation_source/><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-17 09:01:20</sys_created_on><sys_id>3dd5d80497fcde106fb19f900153afab</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-17 09:01:20</sys_updated_on><ui_id>e5d5d804-f2fc-de10-23e5-4ebf95096581</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=3dd5d80497fcde106fb19f900153afab"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_a1a50c4573873300d70877186bf6a762^id=3dd5d80497fcde106fb19f900153afab"/><sys_hub_input_scripts action="delete_multiple" query="instance=3dd5d80497fcde106fb19f900153afab"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=3dd5d80497fcde106fb19f900153afab"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="SLA Percentage Timer">a1a50c4573873300d70877186bf6a762</action_type><action_type_parent/><attributes/><comment/><compiled_snapshot/><display_text/><flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow><generation_source/><order>5</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-17 09:01:20</sys_created_on><sys_id>3dd5d80497fcde106fb19f900153afc0</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-17 09:01:20</sys_updated_on><ui_id>7dd5d804-bdfc-de10-9b4f-1f9fa9927aa2</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=3dd5d80497fcde106fb19f900153afc0"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_a1a50c4573873300d70877186bf6a762^id=3dd5d80497fcde106fb19f900153afc0"/><sys_hub_input_scripts action="delete_multiple" query="instance=3dd5d80497fcde106fb19f900153afc0"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=3dd5d80497fcde106fb19f900153afc0"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type><action_type_parent/><attributes/><comment/><compiled_snapshot/><display_text/><flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow><generation_source/><order>2</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-17 09:01:20</sys_created_on><sys_id>7dd5d80497fcde106fb19f900153afb0</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-17 09:01:20</sys_updated_on><ui_id>b1d5d804-0cfc-de10-348c-d8058a7d7e88</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=7dd5d80497fcde106fb19f900153afb0"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27^id=7dd5d80497fcde106fb19f900153afb0"/><sys_hub_input_scripts action="delete_multiple" query="instance=7dd5d80497fcde106fb19f900153afb0"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=7dd5d80497fcde106fb19f900153afb0"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="SLA Percentage Timer">a1a50c4573873300d70877186bf6a762</action_type><action_type_parent/><attributes/><comment/><compiled_snapshot/><display_text/><flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow><generation_source/><order>3</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-17 09:01:20</sys_created_on><sys_id>b9d5d80497fcde106fb19f900153afb6</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-17 09:01:20</sys_updated_on><ui_id>75d5d804-31fc-de10-09bf-77f9d6cbfa8d</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=b9d5d80497fcde106fb19f900153afb6"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_a1a50c4573873300d70877186bf6a762^id=b9d5d80497fcde106fb19f900153afb6"/><sys_hub_input_scripts action="delete_multiple" query="instance=b9d5d80497fcde106fb19f900153afb6"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=b9d5d80497fcde106fb19f900153afb6"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type><action_type_parent/><attributes/><comment/><compiled_snapshot/><display_text/><flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow><generation_source/><order>4</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-17 09:01:20</sys_created_on><sys_id>fdd5d80497fcde106fb19f900153afba</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-17 09:01:20</sys_updated_on><ui_id>b9d5d804-ecfc-de10-5f1a-47b6ccdaba9d</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=fdd5d80497fcde106fb19f900153afba"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27^id=fdd5d80497fcde106fb19f900153afba"/><sys_hub_input_scripts action="delete_multiple" query="instance=fdd5d80497fcde106fb19f900153afba"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=fdd5d80497fcde106fb19f900153afba"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=2dd5580497fcde106fb19f900153afc9"/><sys_hub_flow_logic action="delete_multiple" query="flow=2dd5580497fcde106fb19f900153afc9^sys_idNOT IN71d5d80497fcde106fb19f900153afc2"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><attributes/><block display_value="">35d5d80497fcde106fb19f900153afc1</block><comment/><connected_to/><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="sla management69d">2dd5580497fcde106fb19f900153afc9</flow><flow_variable/><flow_variables_assigned/><generation_source/><inputs/><logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition><order>6</order><outputs_assigned/><outputs_to_assign/><parent_ui_id/><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-17 09:01:20</sys_created_on><sys_id>71d5d80497fcde106fb19f900153afc2</sys_id><sys_mod_count>1</sys_mod_count><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-17 09:01:20</sys_updated_on><ui_id>f5d5d804-c2fc-de10-5e22-eb50e0fcefa3</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=71d5d80497fcde106fb19f900153afc2"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e^id=71d5d80497fcde106fb19f900153afc2"/><sys_hub_flow_logic_ext_input action="delete_multiple" query="model=71d5d80497fcde106fb19f900153afc2"/><sys_hub_input_scripts action="delete_multiple" query="instance=71d5d80497fcde106fb19f900153afc2"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=2dd5580497fcde106fb19f900153afc9"/><sys_hub_flow_variable action="delete_multiple" query="model=2dd5580497fcde106fb19f900153afc9"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2dd5580497fcde106fb19f900153afc9"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2dd5580497fcde106fb19f900153afc9"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2dd5580497fcde106fb19f900153afc9"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2dd5580497fcde106fb19f900153afc9"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=2dd5580497fcde106fb19f900153afc9"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=2dd5580497fcde106fb19f900153afc9"/></record_update>]]></payload>
+        <payload_hash>-150620371</payload_hash>
+        <record_name>sla management69d</record_name>
+        <reverted_from/>
+        <source>a706507b97e49e106fb19f900153af1e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 09:01:21</sys_created_on>
+        <sys_id>31d5d80497fcde106fb19f900153afe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191ff3703770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 09:01:21</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>f1d5d804f0fcde101077bd3ffc7eb5e3</update_guid>
+        <update_guid_history>f1d5d804f0fcde101077bd3ffc7eb5e3:-150620371,29d5580439fcde10b662b3c2f67a26ce:158562336</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 17:26:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>34c3f01937ec4158892d4b0877764840</sys_id>
+        <sys_metadata>2dd5580497fcde106fb19f900153afc9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sla management69d</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_scope_delete display_value="">d10154c0c5094192a89777eba4769ce9</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_2dd5580497fcde106fb19f900153afc9</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_2dd5580497fcde106fb19f900153afc9">31d5d80497fcde106fb19f900153afe4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 17:26:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="612249333ba0d2106ca6f66aa5e45a77" label="Training Course Dates" max_length="40" name="x_snc_train_cert_training_course_dates" type="collection">
+        <element label="Training Course" max_length="32" name="training_course" reference="x_snc_train_cert_training_course" type="reference"/>
+        <element label="Duration in days" max_length="40" name="duration_in_days" type="integer"/>
+        <element display="true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <index name="index">
+            <element name="training_course"/>
+        </index>
+    </element>
+</database>

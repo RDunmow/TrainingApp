@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>actionConfigId</name>
+        <page display_value="Training and Certifications Admin">5fdfdb4d128d12900fb3eee29ba30bc4</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 12:33:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>13dfdb4d2c8d129027779c40bc03d6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>actionConfigId</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_page_property_13dfdb4d2c8d129027779c40bc03d6b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 12:33:38</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_train_cert.5fdfdb4d128d12900fb3eee29ba30bc4.root.actionConfigId</unique_name>
+        <value>df28e3db0f1210107d20409dc4767ee0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=13dfdb4d2c8d129027779c40bc03d6b3"/>
+</record_update>

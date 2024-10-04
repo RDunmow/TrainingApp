@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_doc_html_template">
+    <sn_doc_html_template action="INSERT_OR_UPDATE">
+        <acknowledgement_text/>
+        <active>true</active>
+        <category/>
+        <custom_font/>
+        <end_date/>
+        <footer_image/>
+        <footer_image_height>50</footer_image_height>
+        <footer_image_position>CENTER</footer_image_position>
+        <footnote/>
+        <footnote_position>RIGHT</footnote_position>
+        <footnote_vertical_position>BELOW</footnote_vertical_position>
+        <header_image/>
+        <header_image_height>50</header_image_height>
+        <header_image_position>RIGHT</header_image_position>
+        <html_script_body><![CDATA[<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"><img style="float: right;" src="/sys_attachment.do?sys_id=78d6f1863bf41e106ca6f66aa5e45a37" width="293" height="73" /></p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">Dear ${client.client_first_name} ${client.client_last_name},</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">As part of our ongoing commitment to providing exceptional legal services, we regularly review our rates to ensure they reflect the value and quality of the services we deliver. After careful consideration, we have decided to implement an annual rate increase.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">This adjustment is necessary to accommodate rising operational costs and to continue investing in the resources and technology that enable us to serve you better. We understand that any increase can pose a concern, and we have endeavoured to keep this change as modest as possible.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">The new rates will be &pound;${new_rate}</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">We value your trust and loyalty, and we remain dedicated to providing you with the highest standard of legal expertise. Should you have any questions or concerns regarding this rate adjustment, please do not hesitate to contact me ${partner.first_name} ${partner.last_name} to discuss further.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">Thank you for your understanding and continued custom.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">Yours sincerely,</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">${partner.first_name} ${partner.last_name}</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">Ashurst Lawyers</p>]]></html_script_body>
+        <language>en</language>
+        <left_right_margin>36</left_right_margin>
+        <name>Do not use</name>
+        <page_number_config/>
+        <page_size>LETTER</page_size>
+        <set_signing_order>true</set_signing_order>
+        <signing_type>servicenow_sign</signing_type>
+        <source_template/>
+        <start_date/>
+        <state>edit</state>
+        <sys_class_name>sn_doc_html_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-23 21:15:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0e56b1863bf41e106ca6f66aa5e45aeb</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Do not use</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sn_doc_html_template_0e56b1863bf41e106ca6f66aa5e45aeb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-23 21:42:05</sys_updated_on>
+        <table>x_snc_client_rat_0_rate_letter</table>
+        <template_date_format>dd/MM/yyyy</template_date_format>
+        <toc_config/>
+        <top_bottom_margin>72</top_bottom_margin>
+        <user_criteria/>
+    </sn_doc_html_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=0e56b1863bf41e106ca6f66aa5e45aeb"/>
+</record_update>

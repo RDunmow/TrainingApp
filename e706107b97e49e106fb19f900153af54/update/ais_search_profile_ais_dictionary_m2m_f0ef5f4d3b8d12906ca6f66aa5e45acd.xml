@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_snc_train_cert_training_admin_search_profile_default_spell_check_dictionary">f8ef5f4d3b8d12906ca6f66aa5e45aca</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="training-admin Search Profile">d7dfdb4d3d8d12906479f9d31226bdc4</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 12:33:43</sys_created_on>
+        <sys_id>f0ef5f4d3b8d12906ca6f66aa5e45acd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_train_cert_training_admin_search_profile_default_spell_check_dictionary.training-admin Search Profile</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_f0ef5f4d3b8d12906ca6f66aa5e45acd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 12:33:43</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

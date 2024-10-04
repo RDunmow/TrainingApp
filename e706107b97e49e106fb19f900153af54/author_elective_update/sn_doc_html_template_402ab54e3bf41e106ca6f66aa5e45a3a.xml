@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_doc_html_template">
+    <sn_doc_html_template action="DELETE">
+        <acknowledgement_text/>
+        <active>true</active>
+        <category/>
+        <custom_font/>
+        <end_date/>
+        <footer_image/>
+        <footer_image_height>50</footer_image_height>
+        <footer_image_position>CENTER</footer_image_position>
+        <footnote/>
+        <footnote_position>RIGHT</footnote_position>
+        <footnote_vertical_position>BELOW</footnote_vertical_position>
+        <header_image/>
+        <header_image_height>50</header_image_height>
+        <header_image_position>RIGHT</header_image_position>
+        <html_script_body><![CDATA[<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"><img style="float: right;" src="/sys_attachment.do?sys_id=78d6f1863bf41e106ca6f66aa5e45a37" width="293" height="73" /></p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">Dear ${client.client_first_name} ${client.client_last_name},</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">As part of our ongoing commitment to providing exceptional legal services, we regularly review our rates to ensure they reflect the value and quality of the services we deliver. After careful consideration, we have decided to implement an annual rate increase.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">This adjustment is necessary to accommodate rising operational costs and to continue investing in the resources and technology that enable us to serve you better. We understand that any increase can pose a concern, and we have endeavoured to keep this change as modest as possible.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">The new rates will be &pound;${new_rate}</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">We value your trust and loyalty, and we remain dedicated to providing you with the highest standard of legal expertise. Should you have any questions or concerns regarding this rate adjustment, please do not hesitate to contact me ${partner.first_name} ${partner.last_name} to discuss further.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">Thank you for your understanding and continued custom.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">Yours sincerely,</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">${partner.first_name} ${partner.last_name}</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;">Ashurst Lawyers</p>]]></html_script_body>
+        <language>en</language>
+        <left_right_margin>36</left_right_margin>
+        <name>Copy of Ashurst Rate Letter</name>
+        <page_number_config/>
+        <page_size>LETTER</page_size>
+        <set_signing_order>true</set_signing_order>
+        <signing_type>servicenow_sign</signing_type>
+        <source_template display_value="Ashurst Rate Letter">0e56b1863bf41e106ca6f66aa5e45aeb</source_template>
+        <start_date/>
+        <state>draft</state>
+        <sys_class_name>sn_doc_html_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-23 21:27:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>402ab54e3bf41e106ca6f66aa5e45a3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Ashurst Rate Letter</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sn_doc_html_template_402ab54e3bf41e106ca6f66aa5e45a3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-23 21:27:20</sys_updated_on>
+        <table>x_snc_client_rat_0_rate_letter</table>
+        <template_date_format>dd/MM/yyyy</template_date_format>
+        <toc_config/>
+        <top_bottom_margin>72</top_bottom_margin>
+        <user_criteria/>
+    </sn_doc_html_template>
+    <sys_translated_text action="DELETE" query="documentkey=402ab54e3bf41e106ca6f66aa5e45a3a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</application>
+        <file_path/>
+        <instance_id>b668fae51bf7311c19254089bd4bcb0b</instance_id>
+        <instance_name>creatorai</instance_name>
+        <name>sn_doc_html_template_402ab54e3bf41e106ca6f66aa5e45a3a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sn_doc_html_template"&gt;&lt;sn_doc_html_template action="INSERT_OR_UPDATE"&gt;&lt;acknowledgement_text/&gt;&lt;active&gt;true&lt;/active&gt;&lt;category/&gt;&lt;custom_font/&gt;&lt;end_date/&gt;&lt;footer_image/&gt;&lt;footer_image_height&gt;50&lt;/footer_image_height&gt;&lt;footer_image_position&gt;CENTER&lt;/footer_image_position&gt;&lt;footnote/&gt;&lt;footnote_position&gt;RIGHT&lt;/footnote_position&gt;&lt;footnote_vertical_position&gt;BELOW&lt;/footnote_vertical_position&gt;&lt;header_image/&gt;&lt;header_image_height&gt;50&lt;/header_image_height&gt;&lt;header_image_position&gt;RIGHT&lt;/header_image_position&gt;&lt;html_script_body&gt;&lt;![CDATA[&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;img style="float: right;" src="/sys_attachment.do?sys_id=78d6f1863bf41e106ca6f66aa5e45a37" width="293" height="73" /&gt;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;Dear ${client.client_first_name} ${client.client_last_name},&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;As part of our ongoing commitment to providing exceptional legal services, we regularly review our rates to ensure they reflect the value and quality of the services we deliver. After careful consideration, we have decided to implement an annual rate increase.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;This adjustment is necessary to accommodate rising operational costs and to continue investing in the resources and technology that enable us to serve you better. We understand that any increase can pose a concern, and we have endeavoured to keep this change as modest as possible.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;The new rates will be &amp;pound;${new_rate}&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;We value your trust and loyalty, and we remain dedicated to providing you with the highest standard of legal expertise. Should you have any questions or concerns regarding this rate adjustment, please do not hesitate to contact me ${partner.first_name} ${partner.last_name} to discuss further.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;Thank you for your understanding and continued custom.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;Yours sincerely,&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;${partner.first_name} ${partner.last_name}&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 8pt; line-height: 115%; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;Ashurst Lawyers&lt;/p&gt;]]&gt;&lt;/html_script_body&gt;&lt;language&gt;en&lt;/language&gt;&lt;left_right_margin&gt;36&lt;/left_right_margin&gt;&lt;name&gt;Copy of Ashurst Rate Letter&lt;/name&gt;&lt;page_number_config/&gt;&lt;page_size&gt;LETTER&lt;/page_size&gt;&lt;set_signing_order&gt;true&lt;/set_signing_order&gt;&lt;signing_type&gt;servicenow_sign&lt;/signing_type&gt;&lt;source_template display_value="Ashurst Rate Letter"&gt;0e56b1863bf41e106ca6f66aa5e45aeb&lt;/source_template&gt;&lt;start_date/&gt;&lt;state&gt;draft&lt;/state&gt;&lt;sys_class_name&gt;sn_doc_html_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-23 21:27:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;402ab54e3bf41e106ca6f66aa5e45a3a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of Ashurst Rate Letter&lt;/sys_name&gt;&lt;sys_package display_value="Training and Certifications" source="x_snc_train_cert"&gt;e706107b97e49e106fb19f900153af54&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training and Certifications"&gt;e706107b97e49e106fb19f900153af54&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_doc_html_template_402ab54e3bf41e106ca6f66aa5e45a3a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-23 21:27:20&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_client_rat_0_rate_letter&lt;/table&gt;&lt;template_date_format&gt;dd/MM/yyyy&lt;/template_date_format&gt;&lt;toc_config/&gt;&lt;top_bottom_margin&gt;72&lt;/top_bottom_margin&gt;&lt;user_criteria/&gt;&lt;/sn_doc_html_template&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=402ab54e3bf41e106ca6f66aa5e45a3a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1929836478</payload_hash>
+        <record_name>Copy of Ashurst Rate Letter</record_name>
+        <reverted_from/>
+        <source>b69d27603b34d2106ca6f66aa5e45a48</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-23 21:27:20</sys_created_on>
+        <sys_id>442ab54e3bf41e106ca6f66aa5e45a3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19220c826860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-23 21:27:20</sys_updated_on>
+        <type>HTML Template</type>
+        <update_guid>082ab54eeaf41e10b391aba93a26d43b</update_guid>
+        <update_guid_history>082ab54eeaf41e10b391aba93a26d43b:-1929836478</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of Ashurst Rate Letter">635a714e3bf41e106ca6f66aa5e45a62</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-23 21:28:24</sys_created_on>
+        <sys_db_object display_value="" name="sn_doc_html_template">sn_doc_html_template</sys_db_object>
+        <sys_id>0117955481c044908a64515a50987a40</sys_id>
+        <sys_metadata>402ab54e3bf41e106ca6f66aa5e45a3a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Ashurst Rate Letter</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_scope_delete display_value="">d10154c0c5094192a89777eba4769ce9</sys_scope_delete>
+        <sys_update_name>sn_doc_html_template_402ab54e3bf41e106ca6f66aa5e45a3a</sys_update_name>
+        <sys_update_version display_value="sn_doc_html_template_402ab54e3bf41e106ca6f66aa5e45a3a">442ab54e3bf41e106ca6f66aa5e45a3c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-23 21:28:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="training-admin Search Profile">d7dfdb4d3d8d12906479f9d31226bdc4</profile>
+        <search_source display_value="Training Course">34ef5f4d3b8d12906ca6f66aa5e45aef</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 12:33:44</sys_created_on>
+        <sys_id>38ef5f4d3b8d12906ca6f66aa5e45af2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>training-admin Search Profile.Training Course</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_38ef5f4d3b8d12906ca6f66aa5e45af2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 12:33:44</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

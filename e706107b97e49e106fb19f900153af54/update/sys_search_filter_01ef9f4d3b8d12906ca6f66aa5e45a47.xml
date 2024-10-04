@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Training Course Dates">01ef9f4d3b8d12906ca6f66aa5e45a26</ais_search_source>
+        <label>Training Course Dates</label>
+        <name>Training Course Dates</name>
+        <order>300</order>
+        <search_context_config display_value="Training and Certifications Admin AI Search Configuration">13dfdb4d608d12906eca28f7d10f9fbc</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 12:33:44</sys_created_on>
+        <sys_id>01ef9f4d3b8d12906ca6f66aa5e45a47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Course Dates</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_search_filter_01ef9f4d3b8d12906ca6f66aa5e45a47</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 12:33:44</sys_updated_on>
+    </sys_search_filter>
+</record_update>

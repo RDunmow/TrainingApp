@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="af06507b97e49e106fb19f900153af24" extends="sn_creatorstudio_task" label="Training and Certifications Request" max_length="40" name="x_snc_train_cert_request" type="collection"/>
+    <element audit="true" db_object_id="af06507b97e49e106fb19f900153af24" extends="sn_creatorstudio_task" label="Training and Certifications Request" max_length="40" name="x_snc_train_cert_request" text_index="true" type="collection"/>
 </database>

@@ -4,97 +4,111 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-03 12:33:49</sys_created_on>
-            <sys_id>56ef9f4d3b8d12906ca6f66aa5e45acd</sys_id>
+            <sys_created_on>2024-10-07 13:14:57</sys_created_on>
+            <sys_id>7fafcc2a97c912106fb19f900153af04</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_train_cert_training_course" sys_domain="global" view="9fdfdb4da68d12900da9d9c3fe4cfbba">5aef9f4d3b8d12906ca6f66aa5e45aca</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-03 12:33:49</sys_updated_on>
+            <sys_updated_on>2024-10-07 13:14:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>provider</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 13:14:57</sys_created_on>
+            <sys_id>f3afcc2a97c912106fb19f900153af05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_train_cert_training_course" sys_domain="global" view="9fdfdb4da68d12900da9d9c3fe4cfbba">5aef9f4d3b8d12906ca6f66aa5e45aca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 13:14:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-03 12:33:49</sys_created_on>
-            <sys_id>56ef9f4d3b8d12906ca6f66aa5e45acc</sys_id>
+            <sys_created_on>2024-10-07 13:14:57</sys_created_on>
+            <sys_id>7bafcc2a97c912106fb19f900153af05</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_train_cert_training_course" sys_domain="global" view="9fdfdb4da68d12900da9d9c3fe4cfbba">5aef9f4d3b8d12906ca6f66aa5e45aca</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-03 12:33:49</sys_updated_on>
+            <sys_updated_on>2024-10-07 13:14:57</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>course_name</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-03 12:33:49</sys_created_on>
-            <sys_id>5eef9f4d3b8d12906ca6f66aa5e45ace</sys_id>
+            <sys_created_on>2024-10-07 13:14:57</sys_created_on>
+            <sys_id>ffafcc2a97c912106fb19f900153af05</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_train_cert_training_course" sys_domain="global" view="9fdfdb4da68d12900da9d9c3fe4cfbba">5aef9f4d3b8d12906ca6f66aa5e45aca</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-03 12:33:49</sys_updated_on>
+            <sys_updated_on>2024-10-07 13:14:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cost</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-03 12:33:49</sys_created_on>
-            <sys_id>5eef9f4d3b8d12906ca6f66aa5e45acb</sys_id>
+            <sys_created_on>2024-10-07 13:14:57</sys_created_on>
+            <sys_id>77afcc2a97c912106fb19f900153af06</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_train_cert_training_course" sys_domain="global" view="9fdfdb4da68d12900da9d9c3fe4cfbba">5aef9f4d3b8d12906ca6f66aa5e45aca</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-03 12:33:49</sys_updated_on>
+            <sys_updated_on>2024-10-07 13:14:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-03 12:33:49</sys_created_on>
-            <sys_id>56ef9f4d3b8d12906ca6f66aa5e45ace</sys_id>
+            <sys_created_on>2024-10-07 13:14:57</sys_created_on>
+            <sys_id>fbafcc2a97c912106fb19f900153af06</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_train_cert_training_course" sys_domain="global" view="9fdfdb4da68d12900da9d9c3fe4cfbba">5aef9f4d3b8d12906ca6f66aa5e45aca</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-03 12:33:49</sys_updated_on>
+            <sys_updated_on>2024-10-07 13:14:57</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>course_description</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-03 12:33:49</sys_created_on>
-            <sys_id>5eef9f4d3b8d12906ca6f66aa5e45acc</sys_id>
+            <sys_created_on>2024-10-07 13:14:57</sys_created_on>
+            <sys_id>73afcc2a97c912106fb19f900153af07</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_train_cert_training_course" sys_domain="global" view="9fdfdb4da68d12900da9d9c3fe4cfbba">5aef9f4d3b8d12906ca6f66aa5e45aca</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-03 12:33:49</sys_updated_on>
+            <sys_updated_on>2024-10-07 13:14:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>course_url</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-03 12:33:49</sys_created_on>
-            <sys_id>5eef9f4d3b8d12906ca6f66aa5e45acd</sys_id>
+            <sys_created_on>2024-10-07 13:14:57</sys_created_on>
+            <sys_id>f7afcc2a97c912106fb19f900153af07</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_train_cert_training_course" sys_domain="global" view="9fdfdb4da68d12900da9d9c3fe4cfbba">5aef9f4d3b8d12906ca6f66aa5e45aca</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-03 12:33:49</sys_updated_on>
+            <sys_updated_on>2024-10-07 13:14:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

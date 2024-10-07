@@ -8,7 +8,7 @@
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Training">8e065958977c52506fb19f900153af1d</category>
-        <checked_out>false</checked_out>
+        <checked_out>true</checked_out>
         <cost>0</cost>
         <create_universal_request>false</create_universal_request>
         <custom_cart/>

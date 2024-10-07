@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description>A playbook for product development</description>
+        <designer_state/>
+        <label>playbook1a</label>
+        <name>playbook1a</name>
+        <now_assist_prompt>Create a playbook for product development. It begins with conceptualizing the product, refining its concept, and conducting market research. Simultaneously, design and engineering teams work on prototyping while marketing prepares promotional strategies. Once the prototype nears completion, testing begins alongside finalizing marketing materials. Feedback from testing informs iterative design changes. Upon successful testing, manufacturing commences while marketing focuses on promotional efforts. Finally, the product is launched, and post-launch monitoring kicks off to assess customer feedback and make further improvements as needed.</now_assist_prompt>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>26bed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>playbook1a</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_pd_process_definition_26bed4ee970d12106fb19f900153afc7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:43</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description>A playbook for product development</description>
+        <designer_state/>
+        <label>playbook1a</label>
+        <name>playbook1a</name>
+        <now_assist_prompt>Create a playbook for product development. It begins with conceptualizing the product, refining its concept, and conducting market research. Simultaneously, design and engineering teams work on prototyping while marketing prepares promotional strategies. Once the prototype nears completion, testing begins alongside finalizing marketing materials. Feedback from testing informs iterative design changes. Upon successful testing, manufacturing commences while marketing focuses on promotional efforts. Finally, the product is launched, and post-launch monitoring kicks off to assess customer feedback and make further improvements as needed.</now_assist_prompt>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>26bed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>playbook1a</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_pd_process_definition_26bed4ee970d12106fb19f900153afc7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:43</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_lane action="delete_multiple" query="process_definition=26bed4ee970d12106fb19f900153afc7^sys_idNOT IN66bed4ee970d12106fb19f900153afc7,e6bed4ee970d12106fb19f900153afc7,6abed4ee970d12106fb19f900153afc7,eabed4ee970d12106fb19f900153afc7,aebed4ee970d12106fb19f900153afc7,22bed4ee970d12106fb19f900153afc8,e2bed4ee970d12106fb19f900153afc8,66bed4ee970d12106fb19f900153afc8,e6bed4ee970d12106fb19f900153afc8,aabed4ee970d12106fb19f900153afc8"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for conceptualizing the product</description>
+        <label>Conceptualization</label>
+        <lane_condition/>
+        <name>conceptualization</name>
+        <order>1</order>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>66bed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=66bed4ee970d12106fb19f900153afc7"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for refining the product concept</description>
+        <label>Refinement</label>
+        <lane_condition/>
+        <name>refinement</name>
+        <order>2</order>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>e6bed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=e6bed4ee970d12106fb19f900153afc7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>e6bed4ee970d12106fb19f900153afc7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>66be58ee970d12106fb19f900153af77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <value>66bed4ee970d12106fb19f900153afc7</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for conducting market research</description>
+        <label>Market Research</label>
+        <lane_condition/>
+        <name>market_research</name>
+        <order>3</order>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>6abed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=6abed4ee970d12106fb19f900153afc7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>6abed4ee970d12106fb19f900153afc7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>2abe58ee970d12106fb19f900153af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <value>66bed4ee970d12106fb19f900153afc7</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for prototyping</description>
+        <label>Prototyping</label>
+        <lane_condition/>
+        <name>prototyping</name>
+        <order>4</order>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>eabed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=eabed4ee970d12106fb19f900153afc7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>eabed4ee970d12106fb19f900153afc7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>a2be58ee970d12106fb19f900153af79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <value>e6bed4ee970d12106fb19f900153afc7,6abed4ee970d12106fb19f900153afc7</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for marketing activities</description>
+        <label>Marketing</label>
+        <lane_condition/>
+        <name>marketing</name>
+        <order>5</order>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>aebed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=aebed4ee970d12106fb19f900153afc7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>aebed4ee970d12106fb19f900153afc7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>2ebe58ee970d12106fb19f900153af79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <value>e6bed4ee970d12106fb19f900153afc7,6abed4ee970d12106fb19f900153afc7</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for testing</description>
+        <label>Testing</label>
+        <lane_condition/>
+        <name>testing</name>
+        <order>6</order>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>22bed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=22bed4ee970d12106fb19f900153afc8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>22bed4ee970d12106fb19f900153afc8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>a6be58ee970d12106fb19f900153af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <value>eabed4ee970d12106fb19f900153afc7,aebed4ee970d12106fb19f900153afc7</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for iterative design changes</description>
+        <label>Iterative Design</label>
+        <lane_condition/>
+        <name>iterative_design</name>
+        <order>7</order>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>e2bed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=e2bed4ee970d12106fb19f900153afc8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>e2bed4ee970d12106fb19f900153afc8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>22be58ee970d12106fb19f900153af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <value>22bed4ee970d12106fb19f900153afc8</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for manufacturing</description>
+        <label>Manufacturing</label>
+        <lane_condition/>
+        <name>manufacturing</name>
+        <order>8</order>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>66bed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=66bed4ee970d12106fb19f900153afc8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>66bed4ee970d12106fb19f900153afc8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>aabe58ee970d12106fb19f900153af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <value>22bed4ee970d12106fb19f900153afc8</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for post-launch monitoring</description>
+        <label>Post-Launch Monitoring</label>
+        <lane_condition/>
+        <name>post_launch_monitoring</name>
+        <order>9</order>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>e6bed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=e6bed4ee970d12106fb19f900153afc8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>e6bed4ee970d12106fb19f900153afc8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>26be58ee970d12106fb19f900153af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <value>e2bed4ee970d12106fb19f900153afc8,66bed4ee970d12106fb19f900153afc8</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for product launch</description>
+        <label>Product Launch</label>
+        <lane_condition/>
+        <name>product_launch</name>
+        <order>10</order>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>aabed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=aabed4ee970d12106fb19f900153afc8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>aabed4ee970d12106fb19f900153afc8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>aebe58ee970d12106fb19f900153af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <value>e6bed4ee970d12106fb19f900153afc8</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="delete_multiple" query="process_definition=26bed4ee970d12106fb19f900153afc7^sys_idNOT IN26bed4ee970d12106fb19f900153afc8,2abed4ee970d12106fb19f900153afc7,2abed4ee970d12106fb19f900153afc8,2ebed4ee970d12106fb19f900153afc7,62bed4ee970d12106fb19f900153afc8,a6bed4ee970d12106fb19f900153afc7,a6bed4ee970d12106fb19f900153afc8,aabed4ee970d12106fb19f900153afc7,eabed4ee970d12106fb19f900153afc8,eebed4ee970d12106fb19f900153afc7,6abed4ee970d12106fb19f900153afc8,6ebed4ee970d12106fb19f900153afc7,a2bed4ee970d12106fb19f900153afc8"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to incorporate feedback from testing</description>
+        <inputs/>
+        <label>Incorporate Feedback</label>
+        <lane display_value="Iterative Design">e2bed4ee970d12106fb19f900153afc8</lane>
+        <name>incorporate_feedback</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>26bed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=26bed4ee970d12106fb19f900153afc8"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to refine the product concept</description>
+        <inputs/>
+        <label>Refine Product Concept</label>
+        <lane display_value="Refinement">e6bed4ee970d12106fb19f900153afc7</lane>
+        <name>refine_product_concept</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>2abed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=2abed4ee970d12106fb19f900153afc7"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to assess customer feedback</description>
+        <inputs/>
+        <label>Assess Customer Feedback</label>
+        <lane display_value="Post-Launch Monitoring">e6bed4ee970d12106fb19f900153afc8</lane>
+        <name>assess_customer_feedback</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>2abed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=2abed4ee970d12106fb19f900153afc8"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to design prototypes</description>
+        <inputs/>
+        <label>Design Prototypes</label>
+        <lane display_value="Prototyping">eabed4ee970d12106fb19f900153afc7</lane>
+        <name>design_prototypes</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>2ebed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=2ebed4ee970d12106fb19f900153afc7"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to test prototypes</description>
+        <inputs/>
+        <label>Test Prototypes</label>
+        <lane display_value="Testing">22bed4ee970d12106fb19f900153afc8</lane>
+        <name>test_prototypes</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>62bed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=62bed4ee970d12106fb19f900153afc8"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to conceptualize the product</description>
+        <inputs/>
+        <label>Conceptualize Product</label>
+        <lane display_value="Conceptualization">66bed4ee970d12106fb19f900153afc7</lane>
+        <name>conceptualize_product</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>a6bed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a6bed4ee970d12106fb19f900153afc7"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to commence manufacturing</description>
+        <inputs/>
+        <label>Commence Manufacturing</label>
+        <lane display_value="Manufacturing">66bed4ee970d12106fb19f900153afc8</lane>
+        <name>commence_manufacturing</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>a6bed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a6bed4ee970d12106fb19f900153afc8"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to conduct market research</description>
+        <inputs/>
+        <label>Conduct Market Research</label>
+        <lane display_value="Market Research">6abed4ee970d12106fb19f900153afc7</lane>
+        <name>conduct_market_research</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>aabed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=aabed4ee970d12106fb19f900153afc7"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to launch the product</description>
+        <inputs/>
+        <label>Launch Product</label>
+        <lane display_value="Product Launch">aabed4ee970d12106fb19f900153afc8</lane>
+        <name>launch_product</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:42</sys_created_on>
+        <sys_id>eabed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:42</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=eabed4ee970d12106fb19f900153afc8"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to prepare promotional strategies</description>
+        <inputs/>
+        <label>Prepare Promotional Strategies</label>
+        <lane display_value="Marketing">aebed4ee970d12106fb19f900153afc7</lane>
+        <name>prepare_promotional_strategies</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>eebed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=eebed4ee970d12106fb19f900153afc7"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to make further improvements based on feedback</description>
+        <inputs/>
+        <label>Make Further Improvements</label>
+        <lane display_value="Post-Launch Monitoring">e6bed4ee970d12106fb19f900153afc8</lane>
+        <name>make_further_improvements</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>6abed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6abed4ee970d12106fb19f900153afc8"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity for engineering prototypes</description>
+        <inputs/>
+        <label>Engineering Prototypes</label>
+        <lane display_value="Prototyping">eabed4ee970d12106fb19f900153afc7</lane>
+        <name>engineering_prototypes</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>6ebed4ee970d12106fb19f900153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6ebed4ee970d12106fb19f900153afc7"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Activity to finalize marketing materials</description>
+        <inputs/>
+        <label>Finalize Marketing Materials</label>
+        <lane display_value="Testing">22bed4ee970d12106fb19f900153afc8</lane>
+        <name>finalize_marketing_materials</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="playbook1a">26bed4ee970d12106fb19f900153afc7</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:20:41</sys_created_on>
+        <sys_id>a2bed4ee970d12106fb19f900153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:20:41</sys_updated_on>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a2bed4ee970d12106fb19f900153afc8"/>
+    <sys_pd_snapshot action="delete_multiple" query="sys_id="/>
+    <sys_json_chunk action="delete_multiple" query="document_id="/>
+    <sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/>
+</record_update>

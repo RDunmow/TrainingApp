@@ -12,6 +12,9 @@
         </element>
         <element label="Course Description" max_length="4000" name="course_description" type="string"/>
         <element display="true" label="Course Name" max_length="40" name="course_name" type="string"/>
+        <element choice="1" label="Provider" max_length="40" name="provider" type="choice">
+            <choice/>
+        </element>
         <element label="Course URL" max_length="1000" name="course_url" type="url"/>
     </element>
 </database>

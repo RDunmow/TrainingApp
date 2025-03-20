@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="training-and-certifications-v3 Search Profile">4ba29a43e289161035e5959560dec2fe</profile>
+        <search_source display_value="Training Course Dates">01ef9f4d3b8d12906ca6f66aa5e45a26</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 12:04:19</sys_created_on>
+        <sys_id>50b25e43978916106fb19f900153af7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>training-and-certifications-v3 Search Profile.Training Course Dates</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_50b25e43978916106fb19f900153af7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 12:04:19</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Train Cert User Acti Req 445812" max_length="40" name="x_snc_train_cert_user_acti_req_445812" type="collection"/>
+</database>

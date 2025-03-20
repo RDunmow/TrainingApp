@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Training Session">871368553b4e16106ca6f66aa5e45ade</ais_search_source>
+        <label>Training Session</label>
+        <name>Training Session</name>
+        <order>100</order>
+        <search_context_config display_value="Training and Certifications AI Search Configuration">9513e455fa4e16109be3c2b653b02051</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 10:30:13</sys_created_on>
+        <sys_id>8b1368553b4e16106ca6f66aa5e45afb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Session</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_search_filter_8b1368553b4e16106ca6f66aa5e45afb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 10:30:13</sys_updated_on>
+    </sys_search_filter>
+</record_update>

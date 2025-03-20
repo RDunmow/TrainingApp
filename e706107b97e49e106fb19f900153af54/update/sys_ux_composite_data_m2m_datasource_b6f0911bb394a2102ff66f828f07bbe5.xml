@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">f6f0911bd894a2100baa1ef0b2daa5e7</dataset>
+        <datasource display_value="Custom Portal Catalog Item page - Related Items Datasource">fef0911b2894a210522ae1fc11138be5</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 15:19:51</sys_created_on>
+        <sys_id>b6f0911bb394a2102ff66f828f07bbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_b6f0911bb394a2102ff66f828f07bbe5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 15:19:51</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

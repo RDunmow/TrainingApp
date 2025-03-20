@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="Training and Certification Provider">51bb8f60004252101d0bc990d6b11a69</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 15:33:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>c8755b243b8252106ca6f66aa5e45a7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_page_property_c8755b243b8252106ca6f66aa5e45a7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 15:33:54</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_train_cert.51bb8f60004252101d0bc990d6b11a69.root.global.globalSearchDataConfigId</unique_name>
+        <value>null</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=c8755b243b8252106ca6f66aa5e45a7d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</application>
+        <file_path/>
+        <instance_id>b668fae51bf7311c19254089bd4bcb0b</instance_id>
+        <instance_name>creatorai</instance_name>
+        <name>sys_ux_page_property_c8755b243b8252106ca6f66aa5e45a7d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>globalSearchDataConfigId</name><page display_value="Training and Certification Provider">51bb8f60004252101d0bc990d6b11a69</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-20 15:33:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>c8755b243b8252106ca6f66aa5e45a7d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>globalSearchDataConfigId</sys_name><sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package><sys_policy/><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_update_name>sys_ux_page_property_c8755b243b8252106ca6f66aa5e45a7d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-20 15:33:54</sys_updated_on><type>string</type><unique_name>x_snc_train_cert.51bb8f60004252101d0bc990d6b11a69.root.global.globalSearchDataConfigId</unique_name><value>null</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=c8755b243b8252106ca6f66aa5e45a7d"/></record_update>]]></payload>
+        <payload_hash>-812102648</payload_hash>
+        <record_name>globalSearchDataConfigId</record_name>
+        <reverted_from/>
+        <source>b69d27603b34d2106ca6f66aa5e45a48</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 15:33:54</sys_created_on>
+        <sys_id>48755b243b8252106ca6f66aa5e45a80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1934a3567d70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 15:33:54</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>0c755b242a8252109b63d593a7e69a7f</update_guid>
+        <update_guid_history>0c755b242a8252109b63d593a7e69a7f:-812102648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 23:12:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>3107468551d74028898bd52c02bbf240</sys_id>
+        <sys_metadata>c8755b243b8252106ca6f66aa5e45a7d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_scope_delete display_value="">d10154c0c5094192a89777eba4769ce9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_c8755b243b8252106ca6f66aa5e45a7d</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_c8755b243b8252106ca6f66aa5e45a7d">48755b243b8252106ca6f66aa5e45a80</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 23:12:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

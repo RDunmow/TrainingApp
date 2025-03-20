@@ -5,15 +5,36 @@
         "activityLogs": null,
         "detailsContext": null,
         "fields": null,
-        "forcedViewName": null,
+        "forcedViewName": "RequestorView",
         "inputExtraParams": null,
         "inputQuery": null,
-        "inputSysId": "5c5c454e3bb01e106ca6f66aa5e45a4a",
-        "inputTable": "x_snc_client_rat_0_rate_letter",
+        "inputSysId": "0b7bdd5097bc52506fb19f900153af64",
+        "inputTable": "x_snc_train_cert_request",
         "screen": null,
         "selectedTabIndex": null,
         "userPrefs": null,
-        "view": "workspace-client-rate-review-0"
+        "view": "workspace-my-training-and-certifications-0"
+    },
+    "5865e308432021105571609dc7b8f23b": {
+        "allRecordsSelected": false,
+        "columnFilteringPopoverDisplay": "allowBoth",
+        "columnLimit": 0,
+        "columns": "",
+        "currentPage": 0,
+        "enableCellFiltering": true,
+        "enableColumnSorting": true,
+        "enableDeclarativeActions": true,
+        "enableDotWalk": true,
+        "enableLiveList": false,
+        "enableQuickEdit": true,
+        "enableReferenceLinks": true,
+        "fetchHighlightedValues": false,
+        "filter": "",
+        "fixedFilter": "",
+        "groupBy": "",
+        "onlyEnableSelectionWhenRequiredByActions": true,
+        "table": "x_snc_train_cert_training_course",
+        "view": "24916bcd3b8d12906ca6f66aa5e45a7f"
     }
 }</macroponent_config>
         <screen display_value="Home default">da4e151889bc52501a19f38b4a6f735c</screen>
@@ -21,13 +42,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-18 09:18:35</sys_created_on>
         <sys_id>5c636d1097fc52506fb19f900153afa0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_5c636d1097fc52506fb19f900153afa0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-04 11:27:31</sys_updated_on>
+        <sys_updated_on>2024-10-09 12:23:28</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

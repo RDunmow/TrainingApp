@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_train_cert_training_course" version="2" view="workspace-training-and-certifications-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Training Course - Workspace Training and Certifications 0" name="x_snc_train_cert_training_course" related_list="NULL" sys_domain="global" view="1513e4551d4e161065179a2c0798eb50">5d232c553b4e16106ca6f66aa5e45ae7</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_snc_train_cert_training_course_dates.training_course</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-22 10:30:21</sys_created_on>
+            <sys_id>11232c553b4e16106ca6f66aa5e45ae9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-22 10:30:21</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Training Course - Workspace Training and Certifications 0</calculated_name>
+            <filter/>
+            <name>x_snc_train_cert_training_course</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-22 10:30:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d232c553b4e16106ca6f66aa5e45ae7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Training Course - Workspace Training and Certifications 0</sys_name>
+            <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_train_cert_training_course_workspace-training-and-certifications-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-22 10:30:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Training and Certifications 0" name="workspace-training-and-certifications-0">1513e4551d4e161065179a2c0798eb50</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

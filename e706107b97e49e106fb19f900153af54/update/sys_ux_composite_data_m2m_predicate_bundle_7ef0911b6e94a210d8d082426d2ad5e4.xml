@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">f6f0911bd894a2100baa1ef0b2daa5e7</dataset>
+        <order/>
+        <predicate_bundle display_value="Custom portal - Related items">7af0911b5494a2101171410e72af3ae5</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 15:19:46</sys_created_on>
+        <sys_id>7ef0911b6e94a210d8d082426d2ad5e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_7ef0911b6e94a210d8d082426d2ad5e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 15:19:46</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

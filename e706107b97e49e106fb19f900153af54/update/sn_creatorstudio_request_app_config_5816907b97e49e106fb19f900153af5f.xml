@@ -2,6 +2,7 @@
     <sn_creatorstudio_request_app_config action="INSERT_OR_UPDATE">
         <color>grouped-blue</color>
         <icon>vacation-outline</icon>
+        <is_deleting>false</is_deleting>
         <name>Training and Certifications</name>
         <request_table>x_snc_train_cert_request</request_table>
         <sys_class_name>sn_creatorstudio_request_app_config</sys_class_name>

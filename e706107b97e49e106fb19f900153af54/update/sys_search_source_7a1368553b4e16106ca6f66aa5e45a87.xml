@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_train_cert_training_session">active=true</condition>
+        <group/>
+        <name>Training and Certifications - x_snc_train_cert_tra</name>
+        <roles/>
+        <source_table>x_snc_train_cert_training_session</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 10:30:11</sys_created_on>
+        <sys_id>7a1368553b4e16106ca6f66aa5e45a87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training and Certifications - x_snc_train_cert_tra</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_search_source_7a1368553b4e16106ca6f66aa5e45a87</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 10:30:11</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=7a1368553b4e16106ca6f66aa5e45a87"/>
+</record_update>

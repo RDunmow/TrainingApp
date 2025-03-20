@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Main Configuration</description>
+        <name>chrome_main</name>
+        <page display_value="">5913e455c04e1610aec5d0910fbafe58</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 10:30:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>5d13e455514e161057d4223b803ab84a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_page_property_5d13e455514e161057d4223b803ab84a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 10:30:06</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_train_cert.5913e455c04e1610aec5d0910fbafe58.root.chrome_main</unique_name>
+        <value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</application>
+        <file_path/>
+        <instance_id>b668fae51bf7311c19254089bd4bcb0b</instance_id>
+        <instance_name>creatorai</instance_name>
+        <name>sys_ux_page_property_5d13e455514e161057d4223b803ab84a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Main Configuration</description><name>chrome_main</name><page display_value="">5913e455c04e1610aec5d0910fbafe58</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-22 10:30:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>5d13e455514e161057d4223b803ab84a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_main</sys_name><sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package><sys_policy/><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_update_name>sys_ux_page_property_5d13e455514e161057d4223b803ab84a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-22 10:30:06</sys_updated_on><type>json</type><unique_name>x_snc_train_cert.5913e455c04e1610aec5d0910fbafe58.root.chrome_main</unique_name><value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1105848710</payload_hash>
+        <record_name>chrome_main</record_name>
+        <reverted_from/>
+        <source>9c114b11972212106fb19f900153aff5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-12-17 18:31:44</sys_created_on>
+        <sys_id>dc3ae9543b48a6906ca6f66aa5e45a86</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>193d5e3ea800000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>9c3ae9544948a69048dfc36ebc787886</update_guid>
+        <update_guid_history>9c3ae9544948a69048dfc36ebc787886:-1105848710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 23:12:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>143d416f29044a6083576fbea9d51640</sys_id>
+        <sys_metadata>5d13e455514e161057d4223b803ab84a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_scope_delete display_value="">d10154c0c5094192a89777eba4769ce9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_5d13e455514e161057d4223b803ab84a</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_5d13e455514e161057d4223b803ab84a">dc3ae9543b48a6906ca6f66aa5e45a86</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 23:12:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">e9bb8f60d84252106c8556e99f1c1c80</dataset>
+        <datasource display_value="My Request - Task Datasource">a9bb8f603e425210648878d8854d087e</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 14:51:29</sys_created_on>
+        <sys_id>61bb8f6070425210e3bf8457a5e05c7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_61bb8f6070425210e3bf8457a5e05c7e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 14:51:29</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

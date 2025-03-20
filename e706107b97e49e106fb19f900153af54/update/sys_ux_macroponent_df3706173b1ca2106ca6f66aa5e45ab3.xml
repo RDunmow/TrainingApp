@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles>[]</bundles>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "afeef20635001010f877265d86f080df",
+            "type": "MACROPONENT"
+        },
+        "elementId": "catalog_item_1",
+        "elementLabel": "Catalog Item 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "GHLeehhfffaamCUAfjjrADPeeeepXvkN",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_sc_record_form.SN_CATALOG_FORM_CONNECTED#REQUEST_GENERATED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_sc_record_form.SN_CATALOG_FORM_CONNECTED#REQUEST_GENERATED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_snc_train_cert.NAV_ITEM_SELECTED_RELAY_df3706173b1ca2106ca6f66aa5e45ab3",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "external": null,
+                                    "fields": null,
+                                    "multiInstField": null,
+                                    "navigationOptions": null,
+                                    "params": null,
+                                    "passiveNavigation": null,
+                                    "redirect": null,
+                                    "route": "landing",
+                                    "targetRoute": null,
+                                    "title": null
+                                }
+                            },
+                            "sysId": "a73782933b1ca2106ca6f66aa5e45a58"
+                        },
+                        "operation": null,
+                        "targetId": "PggWIceehheeeeddBkVMjjdeeFddyjXljjfO",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "engagementChannel": {
+                "type": "JSON_LITERAL",
+                "value": "seismic"
+            },
+            "headerLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "headingOnlyVisibleToScreenReaders": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideOptionsLabel": {
+                "type": "JSON_LITERAL",
+                "value": "false"
+            },
+            "interceptNotifications": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "label": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "propagateNotifications": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "referrer": {
+                "type": "JSON_LITERAL",
+                "value": "default"
+            },
+            "requestedForId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "scrollable": {
+                "type": "JSON_LITERAL",
+                "value": "y"
+            },
+            "showCancelButton": {
+                "type": "JSON_LITERAL",
+                "value": "false"
+            },
+            "showRequestForHeader": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "submitPosition": {
+                "type": "JSON_LITERAL",
+                "value": "right"
+            },
+            "sysId": {
+                "binding": {
+                    "address": [
+                        "catID"
+                    ]
+                },
+                "type": "STATE_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "default": {
+                "margin": "var(--now-scalable-space--xl)",
+                "margin-bottom": "var(--now-scalable-space--xl)",
+                "margin-left": "var(--now-scalable-space--xl)",
+                "margin-right": "var(--now-scalable-space--xl)",
+                "margin-top": "var(--now-scalable-space--xl)"
+            }
+        }
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "9664d48053461010cbc2ddeeff7b128e",
+            "type": "COMPOSITE"
+        },
+        "elementId": "look_up_a_single_record_1",
+        "elementLabel": "Look up a single record 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "vHpkgvkPAUAbjjbiiCeOMddeeddPXL",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                            "payload": {
+                                "container": {
+                                    "propName": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "catID"
+                                    },
+                                    "value": {
+                                        "binding": {
+                                            "address": [
+                                                "look_up_a_single_record_1",
+                                                "result",
+                                                "_row_data",
+                                                "uniqueValue"
+                                            ]
+                                        },
+                                        "type": "DATA_OUTPUT_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "32408b42ff7a10109046e490703bf176"
+                        },
+                        "operation": null,
+                        "targetId": "eeawZteehhrlAaaccVjjgwPrQeehhOeeFSQ",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "recordId": {
+                "binding": {
+                    "address": [
+                        "sysid"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnTableMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "sc_cat_item"
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    }
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events>a73782933b1ca2106ca6f66aa5e45a58</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{
+    "custom_ff_1": {
+        "max-width": 640,
+        "reference": "macroponent"
+    }
+}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+    "MACROPONENT_READY": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": null,
+            "operation": {
+                "dataBrokerId": "9664d48053461010cbc2ddeeff7b128e",
+                "operationName": "REFRESH",
+                "parentResourceId": "look_up_a_single_record_1",
+                "payload": {
+                    "type": "JSON_LITERAL",
+                    "value": {}
+                }
+            },
+            "targetId": "ubitRPJNCaaggxjjYwGxMENiirSQ",
+            "type": "DATABROKER_OP"
+        }
+    ]
+}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "catalog_item_1"
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "queries": [
+        {
+            "layout": {
+                "items": [],
+                "styles": {
+                    "flex-direction": "column",
+                    "height": "auto",
+                    "min-width": null
+                },
+                "type": "flex"
+            },
+            "queryId": "custom_ff_1"
+        }
+    ],
+    "version": "3.1.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysid",
+        "mandatory": false,
+        "name": "sysid",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[
+    {
+        "id": "LQxwLPIJD0H69ioDDQH0NNud",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "10a6983b97e49e106fb19f900153af3d"
+        },
+        "name": "catID",
+        "shape": "",
+        "valueType": "string"
+    }
+]</state_properties>
+        <style_config>{}</style_config>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 19:16:48</sys_created_on>
+        <sys_id>df3706173b1ca2106ca6f66aa5e45ab3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_macroponent_df3706173b1ca2106ca6f66aa5e45ab3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 19:28:54</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=df3706173b1ca2106ca6f66aa5e45ab3"/>
+</record_update>

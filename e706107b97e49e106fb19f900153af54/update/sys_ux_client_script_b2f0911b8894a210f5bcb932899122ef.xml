@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Article page">7af0911bde94a210f4ab4f6bdde144f4</macroponent>
+        <name>Show Delete Comment Alert</name>
+        <preset/>
+        <required_translations>[
+    {
+        "message": "Comment deleted."
+    }
+]</required_translations>
+        <script><![CDATA[async function handler({
+    api,
+    helpers
+}) {
+    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "deleteCommentAlert",
+            status: "info",
+            icon: "info-circle-outline",
+            content: await helpers.translate("Comment deleted."),
+            action: {
+                type: "dismiss"
+            }
+        }],
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 15:19:51</sys_created_on>
+        <sys_id>b2f0911b8894a210f5bcb932899122ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Delete Comment Alert</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_client_script_b2f0911b8894a210f5bcb932899122ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 15:19:51</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

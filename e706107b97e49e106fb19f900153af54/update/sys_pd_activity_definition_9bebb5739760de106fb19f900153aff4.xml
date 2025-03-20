@@ -12,6 +12,7 @@
         <label>Get Catalog Variables</label>
         <name>get_catalog_variables</name>
         <outputs/>
+        <required_roles/>
         <source>22f0b88cc3c632002841b63b12d3aeff</source>
         <source_type>sys_hub_action_type_definition</source_type>
         <sys_class_name>sys_pd_activity_definition</sys_class_name>

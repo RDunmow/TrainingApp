@@ -8,7 +8,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>124e151830bc52507ba74edb5fd1006d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
@@ -16,9 +16,9 @@
         <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
         <sys_update_name>m2m_app_config_theme_124e151830bc52507ba74edb5fd1006d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-18 08:56:21</sys_updated_on>
+        <sys_updated_on>2025-02-10 21:49:54</sys_updated_on>
         <theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</theme>
-        <u_original_theme/>
+        <u_original_theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</u_original_theme>
         <ux_app_configuration display_value="My Training and Certifications App Config">524e15181abc52506d6c39b556b1756f</ux_app_configuration>
     </m2m_app_config_theme>
 </record_update>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Course Information" section_id="ee23444d3b02d2106ca6f66aa5e45ac6" sys_domain="global" table="x_snc_train_cert_training_session" version="3" view="Training_Provider_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-21 13:33:14</sys_created_on>
+            <sys_id>da630c4d3b02d2106ca6f66aa5e45a00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Course Information" display_value="Course Information" name="x_snc_train_cert_training_session" sys_domain="global" view="9223444d3b02d2106ca6f66aa5e45a20">ee23444d3b02d2106ca6f66aa5e45ac6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-21 13:33:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-21 13:33:14</sys_created_on>
+            <sys_id>6a630c4d3b02d2106ca6f66aa5e45a01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Course Information" display_value="Course Information" name="x_snc_train_cert_training_session" sys_domain="global" view="9223444d3b02d2106ca6f66aa5e45a20">ee23444d3b02d2106ca6f66aa5e45ac6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-21 13:33:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>provider</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-21 13:33:14</sys_created_on>
+            <sys_id>62630c4d3b02d2106ca6f66aa5e45a02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Course Information" display_value="Course Information" name="x_snc_train_cert_training_session" sys_domain="global" view="9223444d3b02d2106ca6f66aa5e45a20">ee23444d3b02d2106ca6f66aa5e45ac6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-21 13:33:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-21 13:33:14</sys_created_on>
+            <sys_id>6a630c4d3b02d2106ca6f66aa5e45a02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Course Information" display_value="Course Information" name="x_snc_train_cert_training_session" sys_domain="global" view="9223444d3b02d2106ca6f66aa5e45a20">ee23444d3b02d2106ca6f66aa5e45ac6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-21 13:33:14</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>training_course</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-21 13:33:14</sys_created_on>
+            <sys_id>62630c4d3b02d2106ca6f66aa5e45a03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Course Information" display_value="Course Information" name="x_snc_train_cert_training_session" sys_domain="global" view="9223444d3b02d2106ca6f66aa5e45a20">ee23444d3b02d2106ca6f66aa5e45ac6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-21 13:33:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>training_date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-21 13:33:14</sys_created_on>
+            <sys_id>6a630c4d3b02d2106ca6f66aa5e45a03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Course Information" display_value="Course Information" name="x_snc_train_cert_training_session" sys_domain="global" view="9223444d3b02d2106ca6f66aa5e45a20">ee23444d3b02d2106ca6f66aa5e45ac6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-21 13:33:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Course Information</caption>
+            <header>false</header>
+            <name>x_snc_train_cert_training_session</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-21 13:32:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee23444d3b02d2106ca6f66aa5e45ac6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_snc_train_cert_training_session</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+            <sys_update_name>sys_ui_section_ee23444d3b02d2106ca6f66aa5e45ac6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-21 13:33:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Training Provider View" name="Training_Provider_View">9223444d3b02d2106ca6f66aa5e45a20</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Training and Certifications v3 App Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 12:04:14</sys_created_on>
+        <sys_id>83a29a431f891610aefcade19a8668ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training and Certifications v3 App Config</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_app_config_83a29a431f891610aefcade19a8668ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 12:04:14</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</application>
+        <file_path/>
+        <instance_id>b668fae51bf7311c19254089bd4bcb0b</instance_id>
+        <instance_name>creatorai</instance_name>
+        <name>sys_ux_app_config_83a29a431f891610aefcade19a8668ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description/><disable_auto_reflow>false</disable_auto_reflow><encode_query_string>false</encode_query_string><icon/><landing_path>home</landing_path><name>Training and Certifications v3 App Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-09 12:04:14</sys_created_on><sys_id>83a29a431f891610aefcade19a8668ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Training and Certifications v3 App Config</sys_name><sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package><sys_policy/><sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope><sys_update_name>sys_ux_app_config_83a29a431f891610aefcade19a8668ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-09 12:04:14</sys_updated_on></sys_ux_app_config></record_update>]]></payload>
+        <payload_hash>-1588016214</payload_hash>
+        <record_name>Training and Certifications v3 App Config</record_name>
+        <reverted_from/>
+        <source>9c114b11972212106fb19f900153aff5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-12-17 18:31:44</sys_created_on>
+        <sys_id>ac2a29543b48a6906ca6f66aa5e45ab9</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>193d5e3ea800000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Configuration</type>
+        <update_guid>6c2a29545648a6907c9155994913f1b9</update_guid>
+        <update_guid_history>6c2a29545648a6907c9155994913f1b9:-1588016214</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 23:12:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>05de5a77d4714cc0954f29e692362e40</sys_id>
+        <sys_metadata>83a29a431f891610aefcade19a8668ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training and Certifications v3 App Config</sys_name>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_scope_delete display_value="">d10154c0c5094192a89777eba4769ce9</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_83a29a431f891610aefcade19a8668ff</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_83a29a431f891610aefcade19a8668ff">ac2a29543b48a6906ca6f66aa5e45ab9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 23:12:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

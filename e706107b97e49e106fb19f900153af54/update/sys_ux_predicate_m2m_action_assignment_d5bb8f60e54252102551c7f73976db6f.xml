@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="approve">69bb8f602f4252109e5be007db7ff69e</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">25bb8f6021425210fdd56d05adfbab78</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 14:51:27</sys_created_on>
+        <sys_id>d5bb8f60e54252102551c7f73976db6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_d5bb8f60e54252102551c7f73976db6f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 14:51:27</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

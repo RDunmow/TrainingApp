@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">32f0d11ba894a2109de8994cf88b8407</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 15:19:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f2f0d11b0594a21045de3960179a4e07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>m2m_app_config_theme_f2f0d11b0594a21045de3960179a4e07</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 15:19:46</sys_updated_on>
+        <theme display_value="Light Theme">7af0d11b3d94a2101aae7a28237b7607</theme>
+        <u_original_theme/>
+        <ux_app_configuration display_value="Training and Certifications App Config">a6f0911bb494a210e9b5038c352090d0</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

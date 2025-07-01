@@ -46,6 +46,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:01</sys_updated_on>
         <type>flow</type>
+        <updation_source/>
         <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=cf8982403b3456106ca6f66aa5e45a2e"/>
@@ -282,6 +283,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Upload Training Certificate">cf8982403b3456106ca6f66aa5e45a2e</flow>
+        <generation_source/>
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -295,6 +297,7 @@
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21e98e403b3456106ca6f66aa5e45a74"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -347,6 +350,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:01</sys_updated_on>
         <ui_id>e9e755da-6474-43e1-aedf-096d753e1ae3</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3de98e403b3456106ca6f66aa5e45a7b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -437,6 +441,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:01</sys_updated_on>
         <ui_id>9824db88-b5b5-45de-b9f8-627c21d39c6c</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=520d0ec43b3456106ca6f66aa5e45acd"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -539,6 +544,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:01</sys_updated_on>
         <ui_id>e17cf737-346f-4ce5-92ab-94d33e9be5a9</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b0ad0e083b3456106ca6f66aa5e45a91"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -629,6 +635,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:01</sys_updated_on>
         <ui_id>c0f9d9d6-b9af-4772-8cc9-ba10e945e9e5</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b8ad0e083b3456106ca6f66aa5e45aa7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -719,6 +726,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:01</sys_updated_on>
         <ui_id>60ee935e-08ce-4452-9dbb-f4e2cc024bd2</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f6ca0ec03b3456106ca6f66aa5e45a49"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -881,6 +889,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:01</sys_updated_on>
         <ui_id>2b9e7c3a-83aa-46b1-b6f9-cab5b0622e88</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -916,6 +925,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:01</sys_updated_on>
         <ui_id>4375ed92-0563-426c-888d-8e196959a328</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -1247,6 +1257,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Upload Training Certificate">05ad4e083b3456106ca6f66aa5e45a38</flow>
+        <generation_source/>
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -1260,6 +1271,7 @@
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=55ad4e083b3456106ca6f66aa5e45ace"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1312,6 +1324,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:00</sys_updated_on>
         <ui_id>e9e755da-6474-43e1-aedf-096d753e1ae3</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1dad4e083b3456106ca6f66aa5e45a91"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1402,6 +1415,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:00</sys_updated_on>
         <ui_id>60ee935e-08ce-4452-9dbb-f4e2cc024bd2</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1dad4e083b3456106ca6f66aa5e45a9b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1556,6 +1570,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:00</sys_updated_on>
         <ui_id>e17cf737-346f-4ce5-92ab-94d33e9be5a9</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=51ad4e083b3456106ca6f66aa5e45ac6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1646,6 +1661,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:00</sys_updated_on>
         <ui_id>c0f9d9d6-b9af-4772-8cc9-ba10e945e9e5</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=55ad4e083b3456106ca6f66aa5e45acc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1736,6 +1752,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:00</sys_updated_on>
         <ui_id>9824db88-b5b5-45de-b9f8-627c21d39c6c</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=95ad4e083b3456106ca6f66aa5e45abe"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1808,6 +1825,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:00</sys_updated_on>
         <ui_id>2b9e7c3a-83aa-46b1-b6f9-cab5b0622e88</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -1843,6 +1861,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-19 20:09:00</sys_updated_on>
         <ui_id>4375ed92-0563-426c-888d-8e196959a328</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>

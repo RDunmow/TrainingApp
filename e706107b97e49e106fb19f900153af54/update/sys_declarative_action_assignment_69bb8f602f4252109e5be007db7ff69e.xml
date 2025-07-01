@@ -6,6 +6,7 @@
         <action_payload/>
         <action_type>type</action_type>
         <active>true</active>
+        <animate_icon>false</animate_icon>
         <button_type>primary</button_type>
         <client_action display_value="Approve">a5bb8f60b04252105fab8cca37f11c9e</client_action>
         <client_conditions/>

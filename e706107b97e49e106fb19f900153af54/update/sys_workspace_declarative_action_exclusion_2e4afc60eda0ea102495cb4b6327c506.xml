@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_workspace_declarative_action_exclusion">
+    <sys_workspace_declarative_action_exclusion action="INSERT_OR_UPDATE">
+        <action_assignment display_value="open_record">172e2043534310108135ddeeff7b12dd</action_assignment>
+        <exclude_all_child_tables>false</exclude_all_child_tables>
+        <exclude_self>false</exclude_self>
+        <sys_class_name>sys_workspace_declarative_action_exclusion</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 10:53:04</sys_created_on>
+        <sys_id>2e4afc60eda0ea102495cb4b6327c506</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_workspace_declarative_action_exclusion_2e4afc60eda0ea102495cb4b6327c506</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 10:53:04</sys_updated_on>
+        <table/>
+        <view display_value="3_custom_portal_approval_x_snc_train_cert" name="3_custom_portal_approval_x_snc_train_cert">6e4afc60fda0ea10dac317d39aa6e035</view>
+    </sys_workspace_declarative_action_exclusion>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">264afc60eda0ea10e5ae3fef704ca73c</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">aa4afc6066a0ea10538a01425b857a32</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 10:53:03</sys_created_on>
+        <sys_id>6e4afc6031a0ea104c303d3261469832</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training and Certifications" source="x_snc_train_cert">e706107b97e49e106fb19f900153af54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Certifications">e706107b97e49e106fb19f900153af54</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_6e4afc6031a0ea104c303d3261469832</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 10:53:03</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

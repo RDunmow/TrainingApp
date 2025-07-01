@@ -6,6 +6,7 @@
         <action_payload/>
         <action_type>type</action_type>
         <active>true</active>
+        <animate_icon>false</animate_icon>
         <button_type>secondary</button_type>
         <client_action display_value="Reject">edbb8f6077425210d8946b19eefc139e</client_action>
         <client_conditions/>

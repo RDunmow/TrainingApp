@@ -48,6 +48,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-20 15:28:44</sys_updated_on>
         <type>flow</type>
+        <updation_source/>
         <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=63e3df203b8252106ca6f66aa5e45abb"/>
@@ -235,29 +236,6 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2fe3df203b8252106ca6f66aa5e45ac4"/>
-    <sys_complex_object action="INSERT_OR_UPDATE">
-        <label/>
-        <name>FDCollection</name>
-        <namespace>FlowDesigner</namespace>
-        <scope_name>global</scope_name>
-        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
-        <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path/>
-        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
-        <sys_mod_count>101</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">c025076dc3f331101092bae0150131d3</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
-        <type>complex_object_collection</type>
-    </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -349,6 +327,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Updated provider">63e3df203b8252106ca6f66aa5e45abb</flow>
+        <generation_source/>
         <name>Created or Updated</name>
         <published_version/>
         <remote_sys_id/>
@@ -363,6 +342,7 @@
         <trigger_inputs>H4sIAAAAAAAA/+VaUXOjNhD+KwxP7UzaAWObOH1KnaSXmVzScdzrQyajEULYTLHwCUHiu8l/7woEwRhs7CSt7ctDYgsh7bf77beLyMN3XXB/MqH8mkUCM0LvF9G1q5/ptk0cg5KBbXctwzQNy6SWY5F+1+nhwcCk+okeYIcGMHWMnUB+95mgnOFgvJhTGBZyGDE8k9dmmLlYhHyhnwke0xM95C7l+pl5oqcz1HSYmeAglt+fUcQIEhz7DBHKRfbRZxMU0SjyQwZzXT+aB3jxRd0CI3PMYTkhl/6uk6kfuJwy/ezh8UQXYBZaslm7zYzzJWDimdQcnBrE6sCPYXROu6bTtxyz41qYYqMGcMVyUYP7FSZ9FpS5FLbycBDRGpdwit07FiyKGVPwaAZrhp8j/xusfmrIeR4FVERBJtPQJ/RuLqRP0pHMoOxiGMQzdpsZKj1GPRwHouSxOKLIpXNpm9xNbe3dT8OnUb7Rlc9SGOpiEBIcFN+wAAo5saCR9LnnB+B9lDkhCmOemjm6HN6NLtDf5+Php8sRGl3ej0fXw/Hlhf6S4kFfY7liZqGyBWVwYEJEuD8X50T4CVXbvpy8B3OHIXN9kXGpwl6SX4rKNpWiXQqfckQea8MoqEFKG+TEnvMw8WHml/Ob4afz2z8u77fg7bBsVspb27Bd12ziLXEa4NYYKGqQlzGtY7AaaUPhrmF8NImzfNqZw7PQpcFFOeYZ05DP5rGQbsldgcI55dIFcJ/+GtDf1N+r0d3n/PP4Du57wkxESIQIuy4qOVpuAVg2JUPmk5dC+K58GrjZzA/LER4z2BwVwV/NlDR0RQxv/Ahc9gBKkMcnNQauezdqyVHMtBBYAr80EnMIj9DytPKuZ3iiour9mWdFGhZF2QRzhGYoWkRoGjtoKTYId3vuoDEbsL3k0zQjYekHXX98kXyhASWiRHDvr6j87bMPhYdNSu4tMKbhW4FYoINE0XIPZlCjw8L62FLwVtmSVFhQqdnruNBaFHMGpoJokm7HsJy+YUunALcdzzRso4c91zIM53QttxthiArZP0QYG2QxSvMpaJE9VWfnVkquBttQM1nmtVqnI3mg1He4h6ZVqoi1VRkpCJoNX7Tn6Tu3UNhNpFa7bavCh7ZIMhO8IHwCzdlB+h1M/pnwMGZuVRzlmprPtNcZ2k/K8z8fljSWy4AXcroe7/KMw0G5TQF45Uueq5gtVqU/G9xN5DtAWbvf7Rug7ZaU9d5g4BDc8Ty7b1PTbGRwrZn7Je4bUiOpy60mNa2lXVLH1i0k/v838E1Cr8hYK/PZtWMX9KcpZQhAchRIyV7R9UkAD6j5tdZpv7Jq8vqAtvtJzY2yMD2jcQZurwdgbRA7yHqvSx1sdjsA0u5b1NsEc52xogb6f/L0K7VdGrJ3Rzn7SduICiHr0vbNCIOOPr0HZ+aVKrSMmpbKUci125D9cv06T7svzhsPqF6Xu5I2oGExrh0VaicU05UuDJD+DuNLSOVjRkPMj/gpvZJMybLXap7Sd/Hdbs0d7nTwwLQaZN7ur5eFZoz70+a11JukUbnq2qm2+ZzUykLRXlUbtB3CXiGTWtra0Fr+uE55UzubZ2zjscUuxv4QrUTa/r2ln5DWUhR65TJzEWpwQYNNNN/TlLXU1ZyFJqYUghHAEw9sqMndD6y+lMvrKvIi1Y4ad/aEuNJVwLCmuvgDArZ1w1BJmbXnOzWu2a0foK5FBm5TP9C1W+T2Bhz70xlsLR9JnRqtrYTbrVtds7YWlkK8TImWpf+IUX/YUVWNFcdctSXccbbKDrU6ZKTy7EsO+G1zzPyvMUVkitkke5Oc47oCQlBMplo2RcumHC5SHDzhRaRXuwxIZqkX6kUcDIBysEzKDxQoTShfrERSDmrxHMrNgcVwXWPRKTUWuYWR4IBxsihJae6RHV8QOQOQzR6ANU1rBWzPaVSWZsMamoTOG5uE0vYq4MKf0bQ+Ff8hpM2wIFManWjAivQ1dFq+fB6JdPavO51BkPJ7eaWQdTW0UVSSJj2qq5qbEjeppnxRRaumLGdFlS/qtu7G04bjh/+m3kN5pL75UN5734ajTX/R7j/fHv8F/Ism0tksAAA=</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance_v2>
     <sys_hub_action_instance_v2 action="delete_multiple" query="flow=63e3df203b8252106ca6f66aa5e45abb^sys_idNOT INa4441f603b8252106ca6f66aa5e45ab6"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -385,6 +365,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-20 15:28:44</sys_updated_on>
         <ui_id>de46cc64-f088-43b2-9d40-15be658b02ba</ui_id>
+        <updation_source/>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8FUNnQZCs1HF8C2oY6KEJkLa5pAFBkSuHAEWpJOVYNfzvXVKU7QR5GIEL9FCdxOU+ZnaHe7eJBI9mEeR8fJ4yxnI2ycdpOp6eZcUkL7IxzylcTKM4UrQC9NTAas3xvKKydYbN5rMGaoGPaj360XD3S7KEtVqDststunJhGkm72xCBFvYgJMf7aHZ3H0cN1Zjcgo5mm2dXtmuASFqAxMB5zdoKk46+zDHHscCH6JsB+XMmrgaeechOhDPilcOTpXEEawuKA5YrqTQQRxVVSLPWXTSzukUDNoBfK9ntPB6Esj3Tiq6N+I35z1LnVwJSY7su1ILBdWNFrXqLpYUcLmvZVuqqx+qaCCVtpT1oYmuAcGgcNleth1J+e6gfb4Y6C6E8jQBL1ozK3Ylaq0XRWjCu7yDBs69o0wi1JI2uV8IHI5QqWUo8JKWsH7GmEUuVUOZwJ9gJmizQPvfmW6qFI/EV02Dw1pMmv1pXt6cRABPP2RMmfiLoapgWjb3ExCsIMLdxkGhW4qTZ9JVJFxf7wR7k3Mt0TYxixGoqFGGgbf/riBowxg3gdDr97gCMrnoAx4J/EvwKmaDUJ7Yg1E8nE+r0bws1lP7HlIqTMqQXYODmi7+r4Pd0C+dvbahpsR+1l6o50KzpDGH9ciVF97NN05y/vW6ToRcJ9lx7iby0gU+X+IMPBCqEY2HUA4qP7tSQYCFAcvNC64YXEgqQVSiwW+cneybZJPXf/63+ka1+/wd7Fu8xeggAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=63e3df203b8252106ca6f66aa5e45abb"/>

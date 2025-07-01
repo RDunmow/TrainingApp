@@ -8,10 +8,10 @@
         <derived>true</derived>
         <field/>
         <label>training-and-certifications Search Profile Default Spell Check Dictionary</label>
-        <last_derived>2025-03-20 09:26:56</last_derived>
+        <last_derived>2025-07-01 08:26:57</last_derived>
         <locale>en</locale>
         <name>x_snc_train_cert_training_and_certifications_search_profile_default_spell_check_dictionary</name>
-        <publish_id>c99d05b1-a0a9-43ce-83b5-9d80a3d1f87c</publish_id>
+        <publish_id>03f17869-1de0-4cb0-8086-2cda32e461c0</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
         <state>PUBLISHED</state>
         <sys_class_name>ais_dictionary</sys_class_name>
